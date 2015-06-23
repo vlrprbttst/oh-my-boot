@@ -1,0 +1,418 @@
+// base
+@import "compass";
+@import "partials/_normalize.scss";
+@import "partials/_variables.scss";
+@import "partials/_mixin.scss";
+
+html,
+body {
+  
+  height: 100%;
+  
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.db {
+  display: block !important;
+}
+
+body {
+  background:$light-bg;
+  color:$text-on-light-bg;
+  font-family: $font;
+  @include reset;
+  @include adjust-font-size-to(16px);
+  
+  @include respond-to(640) {
+    font-size:80%;
+  }
+}
+
+img {
+  
+  border:0;
+  vertical-align:bottom;
+  max-width:100%;
+  &.full {width: 100%;}
+}
+
+header {
+  width: 100%;
+  color:$text-on-dark-bg;
+  padding:0 10px;
+  height: 120px;
+}
+
+.subheader {
+  margin: 0 auto;
+  max-width:1200px;
+  text-transform: uppercase;
+  @include clearfix;
+  font-weight: 200;
+  text-align: center;
+  height: 100%;
+  
+  
+  &-left {
+    float: left;
+    background: url("../images/dist/logo-white.png") 20px center no-repeat $highlight;
+    background-size: auto 80%;
+    height: 100%;
+    width: 145px;
+    
+    @include respond-to(360) {
+      float: none;
+    }
+  }
+  
+  &-right {
+    float: right;
+    @include vertical-align;
+    
+    @include respond-to(360) {
+      float: none;
+      padding:5px 0 0 0;
+    }
+    
+    a,
+    a:hover,
+    a:visited,
+    a:active {@include unstyled-link}
+    
+    > div {display: inline;}
+    
+    span {
+      font-weight: normal;
+      &.active {font-weight: bold; }
+    }
+    
+    i {
+      padding:0 10px;
+      &:first-child {padding:0 10px 0 20px}
+      &:last-child {padding:0 0 0 10px}
+    }
+  }
+}// subheader
+
+nav {
+  width: 100%;
+  background:$darker-bg;
+  color:$text-on-dark-bg;
+  position: relative;
+  padding: 10px 0;
+}
+
+.subnav {
+  
+  margin: 0 auto;
+  max-width:1200px;
+  text-transform: uppercase;
+  @include clearfix;
+  
+  i {
+    display: none;
+    
+    @include respond-to(900) {
+      display:block;
+      padding:10px;
+      @include adjust-font-size-to(20px);
+    }
+  }
+  
+  ul,
+  li {
+    @include reset;
+  }
+  
+  ul {
+    @include clearfix;
+    
+    @include respond-to(900) {
+      display:none;
+    }
+  }
+  
+  li {
+    float: left;
+    list-style: none;
+    width: 16.66666666666667%;
+    text-align: center;
+    
+    @include respond-to(900) {
+      width: 100%;
+      
+      &:last-child {
+        padding:0 0 20px;
+      }
+    }
+    
+    a {
+      @include unstyled-link;
+      @include adjust-font-size-to(24px);
+      font-weight: 200;
+      display: block;
+      
+      &.active,
+      &:hover {
+        color:$highlight;
+      }
+    }
+  } 
+}
+
+
+
+footer {
+  width: 100%;
+  background:$highlight2;
+  padding:10px 0;
+  color:$text-on-dark-bg;
+  text-align: center;
+  
+}
+
+.subfooter {
+  margin: 0 auto;
+  max-width:1200px;
+  text-transform: uppercase;
+  @include clearfix;
+  font-weight: 200;
+  text-align: center;
+  padding:10px 0;
+  
+  &-left {
+    float: left;
+    width: 50%;
+    
+    @include respond-to(1050) {
+      width: 100%;
+    }
+    
+    ul,
+    li {
+      @include reset;
+    }
+    
+  ul {
+    @include clearfix;
+    
+    
+  }
+  
+  li {
+    float: left;
+    list-style: none;
+    width: 20%;
+    text-align: center;
+    border-right:1px solid transparentize($text-on-dark-bg,.5);
+    
+    @include respond-to(460) {
+      width: 100%;
+      padding:5px 0;
+    }
+    
+    &:last-child {border:0}
+    
+    a {
+      @include unstyled-link;
+      @include adjust-font-size-to(14px);
+      font-weight: 200;
+      display: block;
+      
+      &.active,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+  
+  &-right {
+    float: right;
+    width: 50%;
+    text-transform: none;
+    
+    @include respond-to(1050) {
+      width: 100%;
+      padding:20px 0 0 0;
+    }
+    
+    span {font-weight: 400;}
+  }
+
+}// subfooter
+
+
+
+/*
+ * slider
+ * 
+ */
+
+
+@import "partials/_bx-slider.scss";
+
+
+.topslider {
+  @include reset;
+  
+  li {
+   @include reset;
+  }
+  
+  .overlay-text {
+  
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:2;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-color:transparent;
+    background-size:cover;
+    
+  &.first {
+    background-image:url("../images/dist/slider-top/text-1.png");
+  }  
+  
+    &.second {
+    background-image:url("../images/dist/slider-top/text-2.png");
+  }  
+  
+    &.third {
+    background-image:url("../images/dist/slider-top/text-3.png");
+  }  
+  
+      &.fifth {
+    background-image:url("../images/dist/slider-top/text-5.png");
+  } 
+    
+  }
+} // top slider
+
+
+.about {
+  @include clearfix;
+  
+  
+  .slider-wrapper {
+    padding: 0;
+    
+    @include respond-to(1324) {
+    padding: 40px 0 0 20px;     
+    }
+    @include respond-to(850) {padding: 0;}
+  }
+  
+  .left {
+  float: left;
+  width: 55%;  
+  position:relative;
+  
+  @include respond-to(1324) {width: 50%;}
+   @include respond-to(850) {width: 100%;}
+  
+  &:after {
+  background:url("../images/dist/slider-middle/overlay-text-middle.png") center center no-repeat;
+  background-size:cover;
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index:99; 
+  }
+  
+  } //left
+  
+  .right {
+    float: right;
+    width: 45%;
+    padding:20px 40px;
+    @include respond-to(1324) {width: 50%;}
+    
+    @include respond-to(850) {width: 100%;}
+  
+    h1 {
+      @include adjust-font-size-to(68px);
+      line-height:1.4em;
+      border-bottom:5px solid lighten($text-on-light-bg,20%);
+      display:inline-block;
+      font-weight: 300;
+      text-transform: uppercase;
+      color:$text-on-light-bg;
+      @include reset;
+      letter-spacing:-2px;
+      
+      span {
+        font-weight: bold;
+        color:lighten($text-on-light-bg,5%);
+        }
+        
+      @include respond-to(1324) {
+        
+      @include adjust-font-size-to(48px);
+      line-height:1em;
+        
+      }  
+        
+    }//h1
+  
+  p {
+    
+    &.first {
+      @include adjust-font-size-to(24px);
+      line-height:1.6em;
+      border-bottom:1px solid lighten($text-on-light-bg,20%);
+      padding:0 0 20px;
+      margin: 20px 0 ;
+      
+            @include respond-to(1324) {
+        
+      @include adjust-font-size-to(18px);
+      line-height:1em;
+      line-height:1.4em;
+        
+      }
+      
+    }
+    
+     @include adjust-font-size-to(20px);
+     
+     
+           @include respond-to(1324) {
+        
+      @include adjust-font-size-to(16px);
+      line-height:1.4em;
+        
+      }
+  }
+  
+  
+  } //right
+} //about
+
+.middleslider {
+  @extend .topslider;
+}
+
+
+
+
+
+
+

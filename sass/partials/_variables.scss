@@ -1,0 +1,20 @@
+// colors
+
+$light-bg:#fff;
+$text-on-light-bg: #333;
+
+$dark-bg:#666;
+$darker-bg:#333;
+$text-on-dark-bg:#fff;
+
+$highlight: #ed1c24; // Red
+$highlight2:#14a5a0; // Turquoise
+
+// typography
+
+$font:'Open Sans', sans-serif;
+$font2: 'Alegreya Sans SC', sans-serif;
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+@include establish-baseline;
