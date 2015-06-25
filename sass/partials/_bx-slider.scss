@@ -177,3 +177,69 @@
   font-size: .85em;
   padding: 10px;
 }
+
+
+//shop slider customization
+
+
+.collection {
+  
+  
+  .shopslider {
+    margin: 0px;
+  padding: 0px;
+  }
+  
+  .bx-wrapper {
+    margin: 0;
+  }
+  
+  .bx-controls.bx-has-pager.bx-has-controls-direction {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin-top: -15px;
+  }
+  
+  
+  .bx-wrapper .bx-pager {
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  display: none;
+  }
+  .bx-wrapper .bx-pager.bx-default-pager a {
+      width: 10px;
+  height: 10px;
+    border-radius: 50%;
+    background:$highlight2;
+    
+    &.active {
+    background:$highlight  
+    }
+  }
+  
+  .bx-wrapper .bx-prev {
+    background: url("../images/dist/arrow_checker_left.png") center center no-repeat;
+    width: 55px;
+    height: 54px;
+    left: 0;
+    background-size:100% auto;
+    z-index:9997;
+    
+  }
+  
+    .bx-wrapper .bx-next {
+    background: url("../images/dist/arrow_checker_right.png") center center no-repeat;
+    width: 55px;
+    height: 54px;
+    right: 0;
+    background-size:100% auto;
+    z-index:9997;
+  }
+
+}//shop slider

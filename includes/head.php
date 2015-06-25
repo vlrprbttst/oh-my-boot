@@ -33,7 +33,7 @@ include 'css/critical.css.php';
 		<!-- Use latest IE rendering engine and switch on chrome Frame if available -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<!-- FONTS -->
-		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700|Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,400,700|Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/main.css" />

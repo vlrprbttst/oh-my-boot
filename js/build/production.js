@@ -1371,8 +1371,9 @@ $('.topslider').bxSlider({
 	}
 });
 
-$('.middleslider').bxSlider({
-	auto : true,
-	controls : false,
-	pager : false
-});
+$('.shopslider').bxSlider({
+	minSlides : 2,
+	maxSlides : 5,
+	slideWidth : 400,
+	slideMargin : 0
+}); 
