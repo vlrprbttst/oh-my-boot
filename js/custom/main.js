@@ -27,7 +27,7 @@ $('.shopslider').bxSlider({
 	maxSlides : 5,
 	slideWidth : 400,
 	slideMargin : 0
-}); 
+});
 
 //instagram
 var userFeed = new Instafeed({
@@ -40,18 +40,25 @@ var userFeed = new Instafeed({
 });
 userFeed.run();
 
-	// menu
-	
-	var navigationWrapper = $(".navigation-wrapper").outerHeight(true);
-	$(".navigation-wrapper").css("height", navigationWrapper + "px")
-	$(window).scroll(function() {
-		var scroll = $(window).scrollTop();
-		if (scroll > 0) {
+// menu
 
-			$(".navigation-subwrapper").addClass("sticky");
-			
+function navPlaceholder() {
+var navigationWrapper = $(".navigation-wrapper").outerHeight(true);
+	$(".navigation-wrapper").css("height", navigationWrapper + "px");
+};
 
-		} else {
-			$(".navigation-subwrapper").removeClass("sticky");
-		}
-	});
+navPlaceholder();
+
+
+
+
+$(window).scroll(function() {
+	var scroll = $(window).scrollTop();
+	if (scroll > 0) {
+
+		$(".navigation-subwrapper").addClass("sticky");
+
+	} else {
+		$(".navigation-subwrapper").removeClass("sticky");
+	}
+}); 

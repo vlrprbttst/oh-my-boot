@@ -7,11 +7,12 @@
 <![endif]-->
 <html lang="it">
 	<head>
-		<style type="text/css">
+		<!--  <style type="text/css">
+		
 <?php
 include 'css/critical.css.php';
 ?>
-		</style>
+		</style> -->
 
 		<meta charset="utf-8">
 		<title>Oh My Boot</title>
