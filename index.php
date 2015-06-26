@@ -82,8 +82,12 @@ include 'includes/head.php';
 				<img src="images/dist/img-collection01.jpg" />
 				<div class="buy">
 					<div class="buy-desc-box">
-						<div class="buyhead">ohmyboot</div>
-						<div class="buytitle">decameron</div>
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							decameron
+						</div>
 						<a href="#"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
@@ -142,6 +146,44 @@ include 'includes/head.php';
 		</ul>
 	</section><!-- collection -->
 
+	<div class="stripe instagram"></div>
+	<section class="grams">
+		<div id="instafeed"></div>
+	</section><!-- grams -->
+	<section class="contact">
+		<div class="contact-box">
+			<h1>contact</h1>
+			<div class="left">
+				<span>Ohmyboot Clothing</span>
+				<br>
+				<span><i class="fa fa-paper-plane"></i></span><a href="mailto:info@ohmyboot.it"> info@ohmyboot.it</a>
+				<br>
+				<span><i class="fa fa-phone"></i></span><a href="tel:00393928961335">+39 392 896 1335</a>
+				<h2>connect <span>with us</span></h2>
+				<br>
+				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span></a>
+				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span></a>
+				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x fa-inverse"></i> </span></a>
+				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-youtube fa-stack-1x fa-inverse"></i> </span></a>
+			</div><!-- left -->
+			<div class="right">
+				<!-- Form -->
+				<form id="contact-form" action="mailer.php" method="post">
+					<input placeholder="your name" name="name" type="text" tabindex="1" required >
+					<input placeholder="your email" type="email" name="email" tabindex="2" required>
+					<div class="text-area">
+						<textarea placeholder="enter your message ... " name="message" tabindex="5" required></textarea>
+					</div>
+					<div class="btn-send">
+						<button name="submit" type="submit" id="contact-submit" value="Submit">
+							SEND
+						</button>
+					</div>
+				</form>
+				<!-- /Form -->
+			</div><!-- right -->
+		</div><!-- contact box -->
+	</section><!-- contact-->
 	<?php
 	include 'includes/footer.php';
 	?>
