@@ -527,7 +527,7 @@ footer {
      
      .buytitle {
        font-size:2em;
-       
+       line-height:1.2em;
        font-weight: 300;      
        letter-spacing:2px;
        text-transform: uppercase;
@@ -640,7 +640,7 @@ footer {
     float: left;
     
     
-    @include respond-to(650) {
+    @include respond-to(972) {
       float: none;
       width: 100%;
       margin:0 0 30px;
@@ -683,7 +683,7 @@ footer {
     float: left;
     padding:0 0 0 40px;
     @include clearfix;
-    @include respond-to(650) {
+    @include respond-to(972) {
       float: none;
       width: 100%;
       padding: 0;
@@ -699,13 +699,19 @@ footer {
       float: right;
     }
     }
+    
     form {
       @include clearfix;
     }
     
+    .text-area {
+      float: left;
+      width: 100%;
+    }
+    
     input,
     textarea {
-      border:2px solid $dark-bg;
+      border:1px solid $dark-bg;
       border-radius:2px;
       padding:10px 20px;
     }
@@ -714,6 +720,10 @@ footer {
       width: 100%;
       margin:0 0 5%;
       min-height:200px;
+    }
+    
+    .btn-send {
+      float: right;
     }
     
     button {

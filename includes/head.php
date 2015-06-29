@@ -7,13 +7,6 @@
 <![endif]-->
 <html lang="it">
 	<head>
-		<!--  <style type="text/css">
-		
-<?php
-include 'css/critical.css.php';
-?>
-		</style> -->
-
 		<meta charset="utf-8">
 		<title>Oh My Boot</title>
 		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">

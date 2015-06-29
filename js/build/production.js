@@ -10942,9 +10942,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 })(jQuery);
 
-$(".subnav i").click(function() {
-	$(".subnav ul").toggleClass("db");
-});
+//top slider
 
 $('.topslider').bxSlider({
 	auto : true,
@@ -10986,14 +10984,21 @@ userFeed.run();
 
 // menu
 
+$(".subnav i").click(function() {
+	$(".subnav ul").toggleClass("db");
+});
+
+//menu place holder
+
 function navPlaceholder() {
-var navigationWrapper = $(".navigation-subwrapper").outerHeight(true);
+	var navigationWrapper = $(".navigation-subwrapper").outerHeight(true);
 	$(".navigation-wrapper").css("min-height", navigationWrapper + "px");
 };
 
 navPlaceholder();
-
 $(window).resize(navPlaceholder);
+
+// sticky menu
 
 $(window).scroll(function() {
 	var scroll = $(window).scrollTop();
@@ -11004,20 +11009,40 @@ $(window).scroll(function() {
 	} else {
 		$(".navigation-subwrapper").removeClass("sticky");
 	}
-}); 
+});
 
+// animated scrolling
+function offsetting() {
+	if (window.width < 900) {
+		$(function() {
+			$("nav ul li a, footer li a").bind("click", function(a) {
+				var b = $(this);
+				var hiddenMenu = $(".subnav ul").outerHeight(true);
+				var offsetMobile = $(".navigation-subwrapper").outerHeight(true) - hiddenMenu;
+				$(".subnav ul").removeClass("db");
+				$("html, body").stop().animate({
+					scrollTop : $(b.attr("href")).offset().top - offsetMobile
+				}, 1400);
+				a.preventDefault()
+			})
+		});
+	}//if
 
-    $(function () {
-        
- 
-        $("nav ul li a, footer li a").bind("click", function (a) {
-            var b = $(this);
-            var navigationWrapper = $(".navigation-subwrapper").outerHeight(true);
-            $(".subnav ul").removeClass("db");
-            $("html, body").stop().animate({
-                scrollTop: $(b.attr("href")).offset().top - navigationWrapper
-            }, 1400);
-            a.preventDefault()
-        })
-    });
-	
+	else {
+				$(function() {
+			$("nav ul li a, footer li a").bind("click", function(a) {
+				var b = $(this);
+				
+				var offsetMobile = $(".navigation-subwrapper").outerHeight(true);
+				$(".subnav ul").removeClass("db");
+				$("html, body").stop().animate({
+					scrollTop : $(b.attr("href")).offset().top - offsetMobile
+				}, 1400);
+				a.preventDefault()
+			})
+		});
+	}
+};
+
+offsetting();
+$(window).resize(offsetting);
