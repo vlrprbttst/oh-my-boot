@@ -10993,7 +10993,6 @@ var navigationWrapper = $(".navigation-wrapper").outerHeight(true);
 
 navPlaceholder();
 
-
 $(window).scroll(function() {
 	var scroll = $(window).scrollTop();
 	if (scroll > 0) {
@@ -11005,10 +11004,16 @@ $(window).scroll(function() {
 	}
 }); 
 
-//scroll 
-	$('nav a').click(function() {
-		$('html, body').animate({
-			scrollTop : $($.attr(this, 'href')).offset().top
-		}, 500);
-		return false;
-	});
+
+    $(function () {
+        
+ 
+        $("nav ul li a").bind("click", function (a) {
+            var b = $(this);
+            $("html, body").stop().animate({
+                scrollTop: $(b.attr("href")).offset().top
+            }, 1400);
+            a.preventDefault()
+        })
+    });
+	

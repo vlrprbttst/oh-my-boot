@@ -66,6 +66,11 @@ header {
   height: 120px;
   background: $highlight;
   transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
+  
+  @include respond-to(900) {
+    height: 60px;
+  }
+  
   }
 
 
@@ -102,7 +107,9 @@ header {
     width: 145px;
     
     @include respond-to(360) {
-      float: none;
+      background: url("../images/dist/logo-white.png") 0 center no-repeat $highlight;
+      background-size: auto 80%;
+      width: 70px;
     }
   }
   
@@ -176,8 +183,9 @@ nav {
   li {
     float: left;
     list-style: none;
-    width: 16.66666666666667%;
+    width: 20%;
     text-align: center;
+    
     
     @include respond-to(900) {
       width: 100%;
@@ -347,7 +355,11 @@ footer {
     }
   }
 .about {
- padding:100px 0;
+ padding:60px 0;
+ 
+     @include respond-to(1450) {
+      padding:5% 0;
+    }
   
     h1 {
      
@@ -363,7 +375,11 @@ footer {
       span {
         font-weight: bold;
         color:lighten($text-on-light-bg,5%);
-        }        
+        }    
+        
+        @include respond-to(480) {
+          font-size:2em;
+        }    
     }//h1
   
   p {
@@ -442,6 +458,10 @@ footer {
   background-size:auto 80%;
   background-repeat:repeat-x;
   
+  @include respond-to(800) {
+    padding:25px 0;
+  }
+  
   &.collection {
     background-image:url("../images/dist/collection.png");
   }
@@ -485,19 +505,20 @@ footer {
      .buy-desc-box {
        transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
        top:50%;
+       width: 70%;
      }
      
      .buyhead {
-      
+       font-size:1.2em;
        font-weight: 700;
        text-transform: uppercase;
          background-image:     linear-gradient(
       to right, 
       #fff,
-      #fff 23%,
-      transparent 23%,
-      transparent 78%,
-      #fff 78%
+      #fff 20%,
+      transparent 20%,
+      transparent 80%,
+      #fff 80%
     );
   background-size: 100% 1px;
   background-repeat: repeat-x;
@@ -505,12 +526,13 @@ footer {
      }
      
      .buytitle {
+       font-size:2em;
        
        font-weight: 300;      
        letter-spacing:2px;
        text-transform: uppercase;
        border-bottom:1px solid $text-on-dark-bg;
-       padding:10px 0 25px 0;
+       padding:20px 0 25px 0;
      }
      
      $magic-number:50px;
@@ -579,7 +601,37 @@ footer {
   background-size: 100% 1px;
   background-repeat: repeat-x;
   background-position: center center;
-  }
+  
+    @include respond-to(480) {
+          font-size:2em;
+          margin:0 0 20px;
+        }  
+            @include respond-to(412) {
+                 background-image:     linear-gradient(
+      to right, 
+      $dark-bg,
+      $dark-bg 20%,
+      transparent 20%,
+      transparent 80%,
+      $dark-bg 80%
+    );
+        }  
+        
+          @include respond-to(976) {
+                 background-image:     linear-gradient(
+      to right, 
+      $dark-bg,
+      $dark-bg 15%,
+      transparent 15%,
+      transparent 85%,
+      $dark-bg 85%
+    );
+        }    
+  
+  
+  
+  
+  }//h1
   
   .left {
     text-align:center;
@@ -591,6 +643,7 @@ footer {
     @include respond-to(650) {
       float: none;
       width: 100%;
+      margin:0 0 30px;
     }
     
     span {

@@ -1,7 +1,7 @@
 <?php
 include 'includes/head.php';
 ?>
-<body id="#top">
+<body>
 	<?php
 	include 'includes/navigation.php';
 	?>
@@ -32,7 +32,7 @@ include 'includes/head.php';
 		</li>
 	</ul>
 
-	<section id="#about" class="about">
+	<section id="about" class="about">
 		<div class="centered">
 			<h1>About <span>OMB</span></h1>
 
@@ -76,7 +76,7 @@ include 'includes/head.php';
 
 	<div class="stripe collection"></div>
 
-	<section class="collection">
+	<section class="collection" id="collection">
 		<ul class="shopslider">
 			<li>
 				<img src="images/dist/img-collection01.jpg" />
@@ -147,10 +147,10 @@ include 'includes/head.php';
 	</section><!-- collection -->
 
 	<div class="stripe instagram"></div>
-	<section class="grams">
+	<section class="grams" id="grams">
 		<div id="instafeed"></div>
 	</section><!-- grams -->
-	<section class="contact">
+	<section class="contact" id="contact">
 		<div class="contact-box">
 			<h1>contact</h1>
 			<div class="left">
