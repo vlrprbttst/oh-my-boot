@@ -23,7 +23,7 @@ $('.topslider').bxSlider({
 });
 
 $('.shopslider').bxSlider({
-	minSlides : 2,
+	minSlides : 1,
 	maxSlides : 5,
 	slideWidth : 400,
 	slideMargin : 0
@@ -43,11 +43,13 @@ userFeed.run();
 // menu
 
 function navPlaceholder() {
-var navigationWrapper = $(".navigation-wrapper").outerHeight(true);
+var navigationWrapper = $(".navigation-subwrapper").outerHeight(true);
 	$(".navigation-wrapper").css("min-height", navigationWrapper + "px");
 };
 
 navPlaceholder();
+
+$(window).resize(navPlaceholder);
 
 $(window).scroll(function() {
 	var scroll = $(window).scrollTop();
@@ -64,10 +66,12 @@ $(window).scroll(function() {
     $(function () {
         
  
-        $("nav ul li a").bind("click", function (a) {
+        $("nav ul li a, footer li a").bind("click", function (a) {
             var b = $(this);
+            var navigationWrapper = $(".navigation-subwrapper").outerHeight(true);
+            $(".subnav ul").removeClass("db");
             $("html, body").stop().animate({
-                scrollTop: $(b.attr("href")).offset().top
+                scrollTop: $(b.attr("href")).offset().top - navigationWrapper
             }, 1400);
             a.preventDefault()
         })

@@ -346,8 +346,8 @@ footer {
 
 
   .centered {
-        margin:0 auto;
-    padding:40px 10%;
+    margin:0 auto;
+    padding:100px 10%;
     max-width:1400px;
     
     @include respond-to(1450) {
@@ -394,7 +394,7 @@ footer {
     float: left;
     width: 33.33333333%;
     height: 0;
-    padding: 50% 0 0 0;
+    padding: 35% 0 0 0;
     position: relative;
     
     @include respond-to(550) {

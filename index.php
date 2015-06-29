@@ -74,9 +74,9 @@ include 'includes/head.php';
 		<div class="cell right"></div>
 	</section><!-- grid -->
 
-	<div class="stripe collection"></div>
+	<div class="stripe collection" id="collection"></div>
 
-	<section class="collection" id="collection">
+	<section class="collection">
 		<ul class="shopslider">
 			<li>
 				<img src="images/dist/img-collection01.jpg" />
@@ -146,8 +146,8 @@ include 'includes/head.php';
 		</ul>
 	</section><!-- collection -->
 
-	<div class="stripe instagram"></div>
-	<section class="grams" id="grams">
+	<div class="stripe instagram" id="grams"></div>
+	<section class="grams" >
 		<div id="instafeed"></div>
 	</section><!-- grams -->
 	<section class="contact" id="contact">
@@ -161,9 +161,9 @@ include 'includes/head.php';
 				<span><i class="fa fa-phone"></i></span> <a href="tel:00393928961335">+39 392 896 1335</a>
 				<h2>connect <span>with us</span></h2>
 				
-				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span></a>
-				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span></a>
-				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x fa-inverse"></i> </span></a>
+				<a href="https://twitter.com/OhmybootClth"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span></a>
+				<a href="https://www.facebook.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span></a>
+				<a href="https://instagram.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-youtube fa-stack-1x fa-inverse"></i> </span></a>
 			</div><!-- left -->
 			<div class="right">
