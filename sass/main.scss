@@ -30,13 +30,27 @@ body {
   color:$text-on-light-bg;
   font-family: $font;
   @include reset;
-  @include adjust-font-size-to(18px);
-  font-weight:normal;
+  font-weight:300;
+  font-size:1em;
   
   @include respond-to(640) {
     font-size:80%;
   }
 }
+
+p {
+  font-size:1.2em;
+  line-height:1.8em;
+  font-weight: 300;
+  margin:0 0 20px;
+} 
+
+h1 {
+  font-size:3em;
+  line-height:auto;
+  padding: 0;
+  margin:0 0 20px;
+} 
 
 img {  
   border:0;
@@ -203,7 +217,8 @@ footer {
   max-width:1200px;
   text-transform: uppercase;
   @include clearfix;
-  font-weight: 200;
+  font-weight: 300;
+  font-size:.8em;
   text-align: center;
   padding:10px 0;
   
@@ -325,14 +340,14 @@ footer {
   .centered {
         margin:0 auto;
     padding:40px 10%;
-    max-width:1200px;
+    max-width:1400px;
     
-    @include respond-to(1250) {
+    @include respond-to(1450) {
       padding:10%;
     }
   }
 .about {
- 
+ padding:100px 0;
   
     h1 {
      
@@ -343,7 +358,7 @@ footer {
       color:$text-on-light-bg;
       padding: 0 0 20px;
       margin:0 0 50px 0;
-      letter-spacing:-5px;
+      letter-spacing:-2px;
       
       span {
         font-weight: bold;
@@ -531,7 +546,6 @@ footer {
 
 .grams {
   @include clearfix;
-  
   .insta-wrapper {
     width: 20%;
     float: left;
@@ -551,16 +565,16 @@ footer {
   
   h1 {
        
-       font-weight: 700;
+       margin:0 0 60px;
        text-align: center;
        text-transform: uppercase;
-         background-image:     linear-gradient(
+       background-image:     linear-gradient(
       to right, 
       $dark-bg,
-      $dark-bg 25%,
-      transparent 25%,
-      transparent 75%,
-      $dark-bg 75%
+      $dark-bg 30%,
+      transparent 30%,
+      transparent 70%,
+      $dark-bg 70%
     );
   background-size: 100% 1px;
   background-repeat: repeat-x;
@@ -598,11 +612,10 @@ footer {
     
     h2 {
      
-      border-top:1px solid $dark-bg;
+      
       text-transform: uppercase;
       font-weight:300;
-      padding:15px 0 0;
-      display: inline-block;
+      margin: 20px 0 10px;
       span {
         font-weight:bold;
         color:inherit;

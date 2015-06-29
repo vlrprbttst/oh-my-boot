@@ -1,7 +1,7 @@
 <?php
 include 'includes/head.php';
 ?>
-<body>
+<body id="#top">
 	<?php
 	include 'includes/navigation.php';
 	?>
@@ -32,7 +32,7 @@ include 'includes/head.php';
 		</li>
 	</ul>
 
-	<section class="about">
+	<section id="#about" class="about">
 		<div class="centered">
 			<h1>About <span>OMB</span></h1>
 
@@ -156,11 +156,11 @@ include 'includes/head.php';
 			<div class="left">
 				<span>Ohmyboot Clothing</span>
 				<br>
-				<span><i class="fa fa-paper-plane"></i></span><a href="mailto:info@ohmyboot.it"> info@ohmyboot.it</a>
+				<span><i class="fa fa-paper-plane"></i></span> <a href="mailto:info@ohmyboot.it">info@ohmyboot.it</a>
 				<br>
-				<span><i class="fa fa-phone"></i></span><a href="tel:00393928961335">+39 392 896 1335</a>
+				<span><i class="fa fa-phone"></i></span> <a href="tel:00393928961335">+39 392 896 1335</a>
 				<h2>connect <span>with us</span></h2>
-				<br>
+				
 				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x fa-inverse"></i> </span></a>

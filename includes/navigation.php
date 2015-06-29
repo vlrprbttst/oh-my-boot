@@ -23,22 +23,19 @@
 				<i class="fa fa-bars"></i>
 				<ul>
 					<li>
-						<a href="#">about us</a>
+						<a href="#about">about us</a>
 					</li>
 					<li>
-						<a href="#">concept</a>
-					</li>
-					<li>
-						<a href="#">collection</a>
+						<a href="#collection">collection</a>
 					</li>
 					<li>
 						<a href="#">shop</a>
 					</li>
 					<li>
-						<a href="#">grams</a>
+						<a href="#grams">grams</a>
 					</li>
 					<li>
-						<a href="#">contact</a>
+						<a href="#contact">contact</a>
 					</li>
 				</ul>
 			</div>

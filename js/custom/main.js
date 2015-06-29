@@ -44,12 +44,10 @@ userFeed.run();
 
 function navPlaceholder() {
 var navigationWrapper = $(".navigation-wrapper").outerHeight(true);
-	$(".navigation-wrapper").css("height", navigationWrapper + "px");
+	$(".navigation-wrapper").css("min-height", navigationWrapper + "px");
 };
 
 navPlaceholder();
-
-
 
 
 $(window).scroll(function() {
@@ -62,3 +60,11 @@ $(window).scroll(function() {
 		$(".navigation-subwrapper").removeClass("sticky");
 	}
 }); 
+
+//scroll 
+	$('nav a').click(function() {
+		$('html, body').animate({
+			scrollTop : $($.attr(this, 'href')).offset().top
+		}, 500);
+		return false;
+	});
