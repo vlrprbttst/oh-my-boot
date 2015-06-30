@@ -5,6 +5,8 @@ include 'includes/head.php';
 	<?php
 	include 'includes/navigation.php';
 	?>
+	
+	  
 
 	<ul class="topslider">
 		<li>
@@ -13,28 +15,18 @@ include 'includes/head.php';
 
 		</li>
 		<li>
-			<img src="images/dist/slider-top/img-slider02.jpg" class="full" />
+			<img src="images/dist/slider-top/img-slider01.jpg" class="full" />
 			<div class="overlay-text second"></div>
 		</li>
 		<li>
-			<img src="images/dist/slider-top/img-slider03.jpg" class="full" />
+			<img src="images/dist/slider-top/img-slider01.jpg" class="full" />
 			<div class="overlay-text third"></div>
 		</li>
-		<li>
-			<img src="images/dist/slider-top/img-slider04.jpg" class="full" />
-		</li>
-		<li>
-			<img src="images/dist/slider-top/img-slider05.jpg" class="full" />
-			<div class="overlay-text fifth"></div>
-		</li>
-		<li>
-			<img src="images/dist/slider-top/img-slider06.jpg" class="full" />
-		</li>
 	</ul>
-
+	
 	<section id="about" class="about">
 		<div class="centered">
-			<h1>About <span>OMB</span></h1>
+			<h1>About </h1>
 
 			<p>
 				"Ohmyboot" is the English for "Oh Mio Stivale"
@@ -56,9 +48,22 @@ include 'includes/head.php';
 
 	<section class="grid">
 		<div class="cell left">
-
+			<div class="overlay">
+			<div class="description-box">
+				<div class="top">
+					omb
+				</div>
+				<div class="center">
+					Alessio Gaudio 
+				</div>
+				<div class="bottom">
+					<a href="#">shop now</a>
+				</div>
+			</div> <!-- description box -->
+			</div><!-- overlay -->
 		</div>
 		<div class="cell center">
+			<div class="overlay">
 			<div class="description-box">
 				<div class="top">
 					omb
@@ -69,9 +74,24 @@ include 'includes/head.php';
 				<div class="bottom">
 					<a href="#">shop now</a>
 				</div>
+			</div> <!-- description box -->
 			</div>
 		</div>
-		<div class="cell right"></div>
+		<div class="cell right">
+			<div class="overlay">
+				<div class="description-box">
+				<div class="top">
+					omb
+				</div>
+				<div class="center">
+					Alessio Gaudio Indian Producer Fuck Yeah
+				</div>
+				<div class="bottom">
+					<a href="#">shop now</a>
+				</div>
+			</div> <!-- description box -->
+			</div>
+		</div>
 	</section><!-- grid -->
 
 	<div class="stripe collection" id="collection"></div>
