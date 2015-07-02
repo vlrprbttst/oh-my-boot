@@ -367,7 +367,7 @@ footer {
       font-weight: 300;
       text-transform: uppercase;
       color:$text-on-light-bg;
-      padding: 40px 0;
+      padding: 10px 0 40px 0;
       margin:0 auto;
       line-height:1.2em;
       
@@ -429,7 +429,13 @@ footer {
       text-transform: uppercase;
       font-weight: bold;
       display: inline-block;
+      
     }
+      a,
+      a:visited,
+      a:hover {
+        @include unstyled-link;
+      }
     
     p {
       text-align: center;
@@ -496,16 +502,16 @@ footer {
     } //desc box
     
     &.left {      
-      background:url("../images/dist/slider-middle/middle-01.jpg") center center no-repeat; 
+      background:url("../images/dist/grid/middle-01.jpg") center center no-repeat; 
       background-size:cover;     
     }    
     &.center {
-      background:url("../images/dist/slider-middle/middle-02.png") center center no-repeat;
+      background:url("../images/dist/grid/middle-02.png") center center no-repeat;
       background-size:cover;
       
     }
     &.right {
-      background:url("../images/dist/slider-middle/middle-03.png") center center no-repeat;
+      background:url("../images/dist/grid/middle-03.png") center center no-repeat;
       background-size:cover;
     }
         &:hover {

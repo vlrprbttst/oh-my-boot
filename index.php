@@ -5,8 +5,6 @@ include 'includes/head.php';
 	<?php
 	include 'includes/navigation.php';
 	?>
-	
-	  
 
 	<ul class="topslider">
 		<li>
@@ -23,68 +21,73 @@ include 'includes/head.php';
 			<div class="overlay-text third"></div>
 		</li>
 	</ul>
-	
+
 	<section id="about" class="about">
 		<div class="centered">
 			<h2>concept</h2>
 			<h1>"Discover the <span>culture</span>"</h1>
 			<p>
-				"Ohmyboot" is the English for "Oh Mio Stivale".<br>
-			
-				"Ohmyboot" is a tribute to the charisma and skill of millions of Italians who shaped our country throughout the centuries.
-				"Ohmyboot" is an exclamation that comes to life as soon as it appears on fabric. "Ohmyboot" (OMB) is a clothing brand!<br>
-			</p>
+				"Ohmyboot" is the English for "Oh Mio Stivale".
+				<br>
 
+				"Ohmyboot" is a tribute to the charisma and skill of millions of Italians who shaped our country throughout the centuries.
+				"Ohmyboot" is an exclamation that comes to life as soon as it appears on fabric. "Ohmyboot" (OMB) is a clothing brand!
+				<br>
+			</p>
+			<a href="#">
 			<div class="discover">
 				discover now
-			</div>
+			</div> </a>
 		</div>
 	</section>
 
 	<section class="grid">
 		<div class="cell left">
 			<div class="overlay">
-			<div class="description-box">
-				<div class="top">
-					omb
+				<div class="description-box">
+					<div class="top">
+						omb
+					</div>
+					<div class="center">
+						Alessio Gaudio
+					</div>
+					<div class="bottom">
+						<a href="#">shop now</a>
+					</div>
 				</div>
-				<div class="center">
-					Alessio Gaudio 
-				</div>
-				<div class="bottom">
-					<a href="#">shop now</a>
-				</div>
-			</div> <!-- description box -->
+				<!-- description box -->
 			</div><!-- overlay -->
 		</div>
 		<div class="cell center">
 			<div class="overlay">
-			<div class="description-box">
-				<div class="top">
-					omb
+				<div class="description-box">
+					<div class="top">
+						omb
+					</div>
+					<div class="center">
+						tank top
+					</div>
+					<div class="bottom">
+						<a href="#">shop now</a>
+					</div>
 				</div>
-				<div class="center">
-					tank top
-				</div>
-				<div class="bottom">
-					<a href="#">shop now</a>
-				</div>
-			</div> <!-- description box -->
+				<!-- description box -->
 			</div>
 		</div>
 		<div class="cell right">
 			<div class="overlay">
 				<div class="description-box">
-				<div class="top">
-					omb
+					<div class="top">
+						omb
+					</div>
+					<div class="center">
+						Alessio Gaudio Indian Producer Fuck Yeah
+					</div>
+					<div class="bottom">
+						<a href="#">shop now</a>
+					</div>
 				</div>
-				<div class="center">
-					Alessio Gaudio Indian Producer Fuck Yeah
-				</div>
-				<div class="bottom">
-					<a href="#">shop now</a>
-				</div>
-			</div> <!-- description box -->
+				<!-- description box -->
 			</div>
 		</div>
 	</section><!-- grid -->
@@ -94,7 +97,7 @@ include 'includes/head.php';
 	<section class="collection">
 		<ul class="shopslider">
 			<li>
-				<img src="images/dist/img-collection01.jpg" />
+				<img src="images/dist/collection/img-collection01.jpg" />
 				<div class="buy">
 					<div class="buy-desc-box">
 						<div class="buyhead">
@@ -108,55 +111,55 @@ include 'includes/head.php';
 				</div>
 			</li>
 			<li>
-				<img src="images/dist/img-collection02.jpg" />
+				<img src="images/dist/collection/img-collection02.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection03.jpg" />
+				<img src="images/dist/collection/img-collection03.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection01.jpg" />
+				<img src="images/dist/collection/img-collection01.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection02.jpg" />
+				<img src="images/dist/collection/img-collection02.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection03.jpg" />
+				<img src="images/dist/collection/img-collection03.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection01.jpg" />
+				<img src="images/dist/collection/img-collection01.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection02.jpg" />
+				<img src="images/dist/collection/img-collection02.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection03.jpg" />
+				<img src="images/dist/collection/img-collection03.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection01.jpg" />
+				<img src="images/dist/collection/img-collection01.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection02.jpg" />
+				<img src="images/dist/collection/img-collection02.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection03.jpg" />
+				<img src="images/dist/collection/img-collection03.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection01.jpg" />
+				<img src="images/dist/collection/img-collection01.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection02.jpg" />
+				<img src="images/dist/collection/img-collection02.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection03.jpg" />
+				<img src="images/dist/collection/img-collection03.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection01.jpg" />
+				<img src="images/dist/collection/img-collection01.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection02.jpg" />
+				<img src="images/dist/collection/img-collection02.jpg" />
 			</li>
 			<li>
-				<img src="images/dist/img-collection03.jpg" />
+				<img src="images/dist/collection/img-collection03.jpg" />
 			</li>
 		</ul>
 	</section><!-- collection -->
@@ -171,11 +174,11 @@ include 'includes/head.php';
 			<div class="left">
 				<span>Ohmyboot Clothing</span>
 				<br>
-				<span><i class="fa fa-paper-plane"></i></span> <a href="mailto:info@ohmyboot.it">info@ohmyboot.it</a>
+				<span><i class="fa fa-paper-plane"></i></span><a href="mailto:info@ohmyboot.it">info@ohmyboot.it</a>
 				<br>
-				<span><i class="fa fa-phone"></i></span> <a href="tel:00393928961335">+39 392 896 1335</a>
+				<span><i class="fa fa-phone"></i></span><a href="tel:00393928961335">+39 392 896 1335</a>
 				<h2>connect <span>with us</span></h2>
-				
+
 				<a href="https://twitter.com/OhmybootClth"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="https://www.facebook.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="https://instagram.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x fa-inverse"></i> </span></a>
