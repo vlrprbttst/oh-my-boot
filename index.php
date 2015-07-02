@@ -26,23 +26,18 @@ include 'includes/head.php';
 	
 	<section id="about" class="about">
 		<div class="centered">
-			<h1>About </h1>
-
+			<h2>concept</h2>
+			<h1>"Discover the <span>culture</span>"</h1>
 			<p>
-				"Ohmyboot" is the English for "Oh Mio Stivale"
-			</p>
-			<p>
+				"Ohmyboot" is the English for "Oh Mio Stivale".<br>
+			
 				"Ohmyboot" is a tribute to the charisma and skill of millions of Italians who shaped our country throughout the centuries.
-				"Ohmyboot" is an exclamation that comes to life as soon as it appears on fabric. "Ohmyboot" (OMB) is a clothing brand!
+				"Ohmyboot" is an exclamation that comes to life as soon as it appears on fabric. "Ohmyboot" (OMB) is a clothing brand!<br>
 			</p>
 
-			<p>
-				The stylistic trait of this clothing line, based on vector graphics, is very original. It recalls the 70’s pop culture with a mix between the "avant-garde"
-				and the "digital art". Each item of clothing is made of pure cotton and is exlusively printed and realized in Italy by our experts.
-				<br>
-				<br>
-				All graphics are unique and every t-shirt, accessory and gadget is made in Italy. Thanks to OMB we will be able to spread a message that goes beyond the borders of the so called "bel Paese".
-			</p>
+			<div class="discover">
+				discover now
+			</div>
 		</div>
 	</section>
 

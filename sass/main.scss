@@ -356,35 +356,84 @@ footer {
   }
 .about {
  padding:60px 0;
+ text-align: center;
  
      @include respond-to(1450) {
       padding:5% 0;
     }
-  
+    
     h1 {
-     
-      border-bottom:5px solid lighten($text-on-light-bg,25%);
-      display:inline-block;
+      text-align: center;
       font-weight: 300;
       text-transform: uppercase;
       color:$text-on-light-bg;
-      padding: 0 0 20px;
-      margin:0 0 50px 0;
-      letter-spacing:-2px;
+      padding: 40px 0;
+      margin:0 auto;
+      line-height:1.2em;
       
       span {
         font-weight: bold;
         color:lighten($text-on-light-bg,5%);
         }    
         
+        
+        
         @include respond-to(480) {
           font-size:2em;
         }    
     }//h1
+    
+    h2 {
+      text-align: center;
+       text-transform: uppercase;
+       background-image: linear-gradient(
+      to right, 
+      $dark-bg,
+      $dark-bg 30%,
+      transparent 30%,
+      transparent 70%,
+      $dark-bg 70%
+    );
+  background-size: 100% 1px;
+  background-repeat: repeat-x;
+  background-position: center center;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
   
-  p {
- 
+    @include respond-to(1030) {
+    width: 80%;
+    
   }
+  
+  @include respond-to(480) {
+    width: 100%;
+    background-image: linear-gradient(
+      to right, 
+      $dark-bg,
+      $dark-bg 22%,
+      transparent 22%,
+      transparent 78%,
+      $dark-bg 78%
+    );
+  }
+  
+    } //h2
+    
+    .discover {
+      color:$text-on-dark-bg;
+      border-bottom:5px solid darken($highlight,10%); 
+      padding: 20px 40px;
+      background:$highlight;
+      margin:40px auto 0;      
+      text-transform: uppercase;
+      font-weight: bold;
+      display: inline-block;
+    }
+    
+    p {
+      text-align: center;
+    }
 } //about
 
 .grid {
