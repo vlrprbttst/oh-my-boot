@@ -13,7 +13,7 @@
 						<a href="https://twitter.com/OhmybootClth" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
 						<a href="https://www.facebook.com/ohmyboot" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
 						<a href="https://instagram.com/ohmyboot" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
-						<a href="#" target="_blank"><i class="fa fa-youtube fa-lg"></i></a>
+						<a href="#" target="_blank"><i class="fa fa-youtube-play fa-lg"></i></a>
 					</div>
 				</div>
 			</div>

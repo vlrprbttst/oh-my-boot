@@ -1,7 +1,7 @@
 <?php
 include 'includes/head.php';
 ?>
-<body>
+<body id="top">
 	<?php
 	include 'includes/navigation.php';
 	?>
@@ -27,12 +27,11 @@ include 'includes/head.php';
 			<h2>concept</h2>
 			<h1>"Discover the <span>culture</span>"</h1>
 			<p>
-				"Ohmyboot" is the English for "Oh Mio Stivale".
+				<b>"Ohmyboot"</b> is the English for "Oh Mio Stivale".<br>
 				<br>
-
-				"Ohmyboot" is a tribute to the charisma and skill of millions of Italians who shaped our country throughout the centuries.
+				"Ohmyboot" is a tribute to the charisma and skills of thousands of Italians who shaped our country throughout the centuries.
 				"Ohmyboot" is an exclamation that comes to life as soon as it appears on fabric. "Ohmyboot" (OMB) is a clothing brand!
-				<br>
+				
 			</p>
 			<a href="#">
 			<div class="discover">
@@ -91,7 +90,6 @@ include 'includes/head.php';
 			</div>
 		</div>
 	</section><!-- grid -->
-
 	<div class="stripe collection" id="collection"></div>
 
 	<section class="collection">
@@ -164,6 +162,7 @@ include 'includes/head.php';
 		</ul>
 	</section><!-- collection -->
 
+
 	<div class="stripe instagram" id="grams"></div>
 	<section class="grams" >
 		<div id="instafeed"></div>
@@ -182,7 +181,7 @@ include 'includes/head.php';
 				<a href="https://twitter.com/OhmybootClth"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="https://www.facebook.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="https://instagram.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x fa-inverse"></i> </span></a>
-				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-youtube fa-stack-1x fa-inverse"></i> </span></a>
+				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i> </span></a>
 			</div><!-- left -->
 			<div class="right">
 				<!-- Form -->

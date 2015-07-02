@@ -85,10 +85,10 @@ function offsetting() {
 	}//if
 
 	else {
-				$(function() {
+		$(function() {
 			$("nav ul li a, footer li a").bind("click", function(a) {
 				var b = $(this);
-				
+
 				var offsetMobile = $(".navigation-subwrapper").outerHeight(true);
 				$(".subnav ul").removeClass("db");
 				$("html, body").stop().animate({

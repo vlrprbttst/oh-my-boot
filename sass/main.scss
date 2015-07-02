@@ -64,7 +64,8 @@ header {
   color:$text-on-dark-bg;
   padding:0 10px;
   height: 120px;
-  background: $highlight;
+  background: url("../images/dist/noise.png") $highlight;
+  background-size:50px auto;
   transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
   
   @include respond-to(900) {
@@ -101,13 +102,13 @@ header {
   
   &-left {
     float: left;
-    background: url("../images/dist/logo-white.png") 20px center no-repeat $highlight;
+    background: url("../images/dist/logo-white.png") 20px center no-repeat transparent;
     background-size: auto 80%;
     height: 100%;
     width: 145px;
     
     @include respond-to(360) {
-      background: url("../images/dist/logo-white.png") 0 center no-repeat $highlight;
+      background: url("../images/dist/logo-white.png") center center no-repeat transparent;
       background-size: auto 80%;
       width: 70px;
     }
@@ -147,7 +148,11 @@ nav {
   background:$darker-bg;
   color:$text-on-dark-bg;
   position: relative;
-  padding: 10px 0;
+  padding: 20px 0;
+  box-shadow:0 10px 20px rgba(0,0,0,.2);
+  
+  @include respond-to(599) {padding:10px 0;}
+  
 }
 
 .subnav {
@@ -185,7 +190,16 @@ nav {
     list-style: none;
     width: 20%;
     text-align: center;
-    
+      border-left: 1px solid rgba(255,255,255,.1);
+  border-right: 1px solid rgba(0,0,0,.3);
+  
+  &:first-child {
+    border-left:0;
+  }
+  
+  &:last-child {
+    border-right:0
+  }
     
     @include respond-to(900) {
       width: 100%;
@@ -355,7 +369,7 @@ footer {
     }
   }
 .about {
- padding:60px 0;
+ padding:50px 0;
  text-align: center;
  
      @include respond-to(1450) {
@@ -753,6 +767,8 @@ footer {
       }
     }
     
+    i {padding:0 5px 0 0}
+    
   }//.left
   
   .right {
@@ -821,6 +837,8 @@ footer {
     
   }//right
 }//contact
+
+
 
 
 
