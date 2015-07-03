@@ -27,11 +27,12 @@ include 'includes/head.php';
 			<h2>concept</h2>
 			<h1>"Discover the <span>culture</span>"</h1>
 			<p>
-				<b>"Ohmyboot"</b> is the English for "Oh Mio Stivale".<br>
+				<b>"Ohmyboot"</b> is the English for "Oh Mio Stivale".
+				<br>
 				<br>
 				"Ohmyboot" is a tribute to the charisma and skills of thousands of Italians who shaped our country throughout the centuries.
 				"Ohmyboot" is an exclamation that comes to life as soon as it appears on fabric. "Ohmyboot" (OMB) is a clothing brand!
-				
+
 			</p>
 			<a href="#">
 			<div class="discover">
@@ -161,7 +162,6 @@ include 'includes/head.php';
 			</li>
 		</ul>
 	</section><!-- collection -->
-
 
 	<div class="stripe instagram" id="grams"></div>
 	<section class="grams" >
