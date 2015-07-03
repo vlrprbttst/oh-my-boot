@@ -8,17 +8,21 @@ include 'includes/head.php';
 
 	<ul class="topslider">
 		<li>
-			<img src="images/dist/slider-top/img-slider01.jpg" class="full" />
+			<img src="images/dist/slider-top/SLIDER01.jpg" class="full" />
 			<div class="overlay-text first"></div>
 
 		</li>
 		<li>
-			<img src="images/dist/slider-top/img-slider01.jpg" class="full" />
+			<img src="images/dist/slider-top/SLIDER02.jpg" class="full" />
 			<div class="overlay-text second"></div>
 		</li>
 		<li>
-			<img src="images/dist/slider-top/img-slider01.jpg" class="full" />
+			<img src="images/dist/slider-top/slide03.jpg" class="full" />
 			<div class="overlay-text third"></div>
+		</li>
+		<li>
+			<img src="images/dist/slider-top/SLIDER04.jpg" class="full" />
+			<div class="overlay-text fourth"></div>
 		</li>
 	</ul>
 
