@@ -5,20 +5,29 @@
 <!--[if lt IE 9]>
 <html lang="en" class="ie ie-legacy">
 <![endif]-->
-<html lang="it">
+<html>
 	<head>
 		<meta charset="utf-8">
-		<title>Oh My Boot</title>
+		<title>Ohmyboot | www.ohmyboot.it</title>
 		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-		<meta name="description" content="Oh My Boot">
+		<meta name="description" content="Ohmyboot is a tribute to the charisma and skills of thousands of Italians who shaped our country throughout the centuries.">
 
-		<!-- facebook
-		<meta property="og:title" content="content">
+		<!-- facebook -->
+		<meta property="og:title" content="Ohmyboot">
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="content">
-		<meta property="og:image" content="absolute url">
-		<meta property="og:description" content="content">
-		<meta property="og:site_name" content="url"> -->
+		<meta property="og:url" content="http://www.ohmyboot.it">
+		<meta property="og:image" content="http://www.ohmyboot.it/images/dist/logo-red-white.png">
+		<meta property="og:description" content="Ohmyboot Clothing">
+		<meta property="og:site_name" content="www.ohmyboot.it">
+
+		<!-- twitter card -->
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:description" content="Ohmyboot Clothing"/>
+		<meta name="twitter:title" content="Ohmyboot"/>
+		<meta name="twitter:site" content="@OhmybootClth"/>
+		<meta name="twitter:domain" content="Ohmyboot - Clothing"/>
+		<meta name="twitter:image:src" content="http://www.ohmyboot.it/images/dist/logo-red-white.png"/>
+		<meta name="twitter:creator" content="@OhmybootClth"/>
 
 		<!-- viewport -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
