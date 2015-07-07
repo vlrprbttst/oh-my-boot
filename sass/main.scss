@@ -513,7 +513,8 @@ footer {
         
         a,
         a:visited,
-        a:hover {
+        a:hover,
+        a:active {
           display: block;
           @include unstyled-link;
         }
@@ -534,7 +535,8 @@ footer {
       background:url("../images/dist/grid/middle-03.png") center center no-repeat;
       background-size:cover;
     }
-        &:hover {
+        &:hover,
+        &:active {
       .description-box {
         opacity: 1;
         top: 50%;
