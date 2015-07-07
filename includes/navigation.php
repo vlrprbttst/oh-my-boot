@@ -3,12 +3,10 @@
 		<header>
 			<div class="subheader">
 				<div class="subheader-left">
-
+				<span>Ohmybooth</span>
 				</div>
 				<div class="subheader-right">
-					<div class="language">
-						<span class="active">ITA</span> ENG
-					</div>
+	
 					<div class="social">
 						<a href="https://twitter.com/OhmybootClth" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
 						<a href="https://www.facebook.com/ohmyboot" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>

@@ -107,16 +107,26 @@ header {
     height: 100%;
     width: 145px;
     
+    span {display: none; }
     @include respond-to(360) {
-      background: url("../images/dist/logo-white.png") center center no-repeat transparent;
+      background:none;
       background-size: auto 80%;
       width: 70px;
+      
+      span {
+        display: block;
+        text-transform: capitalize;
+        @include vertical-align;
+        font-weight: bold;
+        padding: 5px 0 0 0;
+      }
     }
   }
   
   &-right {
     float: right;
     @include vertical-align;
+    text-align: right;
     
     @include respond-to(360) {
       float: none;
@@ -130,10 +140,6 @@ header {
     
     > div {display: inline;}
     
-    span {
-      font-weight: normal;
-      &.active {font-weight: bold; }
-    }
     
     i {
       padding:0 10px;
@@ -149,7 +155,7 @@ nav {
   color:$text-on-dark-bg;
   position: relative;
   padding: 20px 0;
-  box-shadow:0 10px 20px rgba(0,0,0,.2);
+  box-shadow:0 5px 5px rgba(0,0,0,0.2);
   
   @include respond-to(599) {padding:10px 0;}
   
@@ -190,8 +196,8 @@ nav {
     list-style: none;
     width: 20%;
     text-align: center;
-      border-left: 1px solid rgba(255,255,255,.1);
-  border-right: 1px solid rgba(0,0,0,.3);
+    border-left: 1px solid rgba(255,255,255,.1);
+    border-right: 1px solid rgba(0,0,0,.3);
   
   &:first-child {
     border-left:0;
@@ -211,7 +217,7 @@ nav {
     
     a {
       @include unstyled-link;
-      
+      letter-spacing: 2px;
       font-weight: 200;
       display: block;
       
@@ -361,7 +367,7 @@ footer {
 
   .centered {
     margin:0 auto;
-    padding:100px 10%;
+    padding:50px 10%;
     max-width:1400px;
     
     @include respond-to(1450) {
@@ -672,6 +678,7 @@ footer {
 
   .contact-box {
     @extend .centered;
+    padding: 100px 10%;
     @include clearfix;
     
   }
