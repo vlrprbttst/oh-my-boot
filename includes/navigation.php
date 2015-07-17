@@ -3,7 +3,7 @@
 		<header>
 			<div class="subheader">
 				<div class="subheader-left">
-				<span>Ohmybooth</span>
+				<span>OHMYBOOT</span>
 				</div>
 				<div class="subheader-right">
 	

@@ -739,7 +739,7 @@ footer {
     text-align:center;
     width: 30%;
     float: left;
-    
+    line-height:2em;
     
     @include respond-to(972) {
       float: none;
@@ -847,7 +847,94 @@ footer {
   }//right
 }//contact
 
+.newsletter {
+  background:url("../images/dist/noise.png") #999;
+  color:$text-on-dark-bg;
+  text-align: center;
+  font-size:1.4em;
+  line-height:1.6em;
+  text-transform: uppercase;
+  padding:20px 0;
+  
+  @include respond-to(380) {
+    line-height:1em;
+  }
+  
+  
+  span {
+    font-weight:bold;
+  }
+  
+  form,
+  input {
+    display: inline;
+  }
+  
+  form {
+    @include respond-to(918) {
+      display: block;
+      margin:5px 0 0 0;
+    }
+  }
+  
+  input {
+    border-radius:3px;
+    background:lighten(#999,20%);
+    border:0;
+    height:40px;
+    line-height:40px;
+    font-size:.8em;
+    padding:0 10px;
+    vertical-align: bottom;
+    text-align: center;
+    color:$text-on-light-bg;
+  }
+  button {
+      background:$highlight;
+      color:$text-on-dark-bg;
+      padding:0 25px;
+      border-radius:3px;
+      border-left: 0;
+      border-top: 0;
+      border-right: 0;
+      border-bottom:3px solid lighten($highlight,10%);
+      height: 40px;
+      line-height: 40px;
+      font-size:.8em;
+      vertical-align: bottom;
+            @include respond-to(380) {
+     margin:10px 0 0;
+  }
+  }
+}
 
 
+body.thanks {
+  margin:0;
+  padding:20px;
+}
 
-
+.response b {
+  display: block;
+  font-size:2em;
+  line-height:1.6em;
+}
+.response {
+  text-align: center;
+  
+  img {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+  }
+  
+  a {
+    @include unstyled-link;
+    text-decoration: underline;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+}

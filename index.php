@@ -45,6 +45,15 @@ include 'includes/head.php';
 		</div>
 	</section>
 
+	<section class="newsletter">
+		subscribe to our <span>newsletter</span>
+		<!-- Form -->
+		<form id="newsletter-form" action="mailer-newsletter.php" method="post">
+			<input placeholder="your email" type="email" name="email" tabindex="2" required>
+				<button name="submit" type="submit" id="contact-submit" value="Submit">SEND</button>
+		</form><!-- /Form -->
+	</section>
+
 	<section class="grid">
 		<div class="cell left">
 			<div class="overlay">
