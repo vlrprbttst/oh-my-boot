@@ -123,20 +123,6 @@ include 'includes/head.php';
 				</div>
 			</li>
 			<li>
-				<img src="images/dist/collection/img-collection02.jpg" />
-				<div class="buy">
-					<div class="buy-desc-box">
-						<div class="buyhead">
-							ohmyboot
-						</div>
-						<div class="buytitle">
-							6 chars
-						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
-					</div>
-				</div>
-			</li>
-			<li>
 				<img src="images/dist/collection/img-collection03.jpg" />
 				<div class="buy">
 					<div class="buy-desc-box">
@@ -151,10 +137,46 @@ include 'includes/head.php';
 				</div>
 			</li>
 			<li>
-				<img src="images/dist/collection/img-collection01.jpg" />
+				<img src="images/dist/collection/img-collection02.jpg" />
+				<div class="buy">
+					<div class="buy-desc-box">
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							6 chars
+						</div>
+						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
 			</li>
 			<li>
-				<img src="images/dist/collection/img-collection02.jpg" />
+				<img src="images/dist/collection/img-collection04.jpg" />
+				<div class="buy">
+					<div class="buy-desc-box">
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							bike thieves
+						</div>
+						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<img src="images/dist/collection/img-collection05.jpg" />
+				<div class="buy">
+					<div class="buy-desc-box">
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							omb
+						</div>
+						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
 			</li>
 			<li>
 				<img src="images/dist/collection/img-collection03.jpg" />
