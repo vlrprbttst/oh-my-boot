@@ -116,7 +116,7 @@ include 'includes/head.php';
 							ohmyboot
 						</div>
 						<div class="buytitle">
-							decameron
+							hell
 						</div>
 						<a href="#"><i class="fa fa-shopping-cart"></i></a>
 					</div>
@@ -124,10 +124,31 @@ include 'includes/head.php';
 			</li>
 			<li>
 				<img src="images/dist/collection/img-collection02.jpg" />
-				
+				<div class="buy">
+					<div class="buy-desc-box">
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							6 chars
+						</div>
+						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
 			</li>
 			<li>
 				<img src="images/dist/collection/img-collection03.jpg" />
+				<div class="buy">
+					<div class="buy-desc-box">
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							decameron
+						</div>
+						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
 			</li>
 			<li>
 				<img src="images/dist/collection/img-collection01.jpg" />
