@@ -124,6 +124,7 @@ include 'includes/head.php';
 			</li>
 			<li>
 				<img src="images/dist/collection/img-collection02.jpg" />
+				
 			</li>
 			<li>
 				<img src="images/dist/collection/img-collection03.jpg" />
