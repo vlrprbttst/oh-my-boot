@@ -28,7 +28,7 @@ include 'includes/head.php';
 
 	<section id="about" class="about">
 		<div class="centered">
-			<h2>concept</h2>
+			<h2>about us</h2>
 			<h1>"Discover the <span>culture</span>"</h1>
 			<p>
 				<b>"Ohmyboot"</b> is the English for "Oh Mio Stivale".
@@ -94,10 +94,10 @@ include 'includes/head.php';
 						omb
 					</div>
 					<div class="center">
-						Alessio Gaudio Indian Producer Fuck Yeah
+						lookbook 2015
 					</div>
 					<div class="bottom">
-						<a href="#">shop now</a>
+						<a href="#">watch now</a>
 					</div>
 				</div>
 				<!-- description box -->
@@ -179,44 +179,76 @@ include 'includes/head.php';
 				</div>
 			</li>
 			<li>
-				<img src="images/dist/collection/img-collection03.jpg" />
+				<img src="images/dist/collection/img-collection06.jpg" />
+				<div class="buy">
+					<div class="buy-desc-box">
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							lion king
+						</div>
+						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
 			</li>
 			<li>
-				<img src="images/dist/collection/img-collection01.jpg" />
+				<img src="images/dist/collection/img-collection07.jpg" />
+				<div class="buy">
+					<div class="buy-desc-box">
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							pinocchio
+						</div>
+						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
 			</li>
 			<li>
-				<img src="images/dist/collection/img-collection02.jpg" />
+				<img src="images/dist/collection/img-collection08.jpg" />
+				<div class="buy">
+					<div class="buy-desc-box">
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							nuvolari
+						</div>
+						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
 			</li>
 			<li>
-				<img src="images/dist/collection/img-collection03.jpg" />
+				<img src="images/dist/collection/img-collection09.jpg" />
+				<div class="buy">
+					<div class="buy-desc-box">
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							solo
+						</div>
+						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
 			</li>
 			<li>
-				<img src="images/dist/collection/img-collection01.jpg" />
+				<img src="images/dist/collection/img-collection10.jpg" />
+				<div class="buy">
+					<div class="buy-desc-box">
+						<div class="buyhead">
+							ohmyboot
+						</div>
+						<div class="buytitle">
+							hawks and sparrows
+						</div>
+						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
 			</li>
-			<li>
-				<img src="images/dist/collection/img-collection02.jpg" />
-			</li>
-			<li>
-				<img src="images/dist/collection/img-collection03.jpg" />
-			</li>
-			<li>
-				<img src="images/dist/collection/img-collection01.jpg" />
-			</li>
-			<li>
-				<img src="images/dist/collection/img-collection02.jpg" />
-			</li>
-			<li>
-				<img src="images/dist/collection/img-collection03.jpg" />
-			</li>
-			<li>
-				<img src="images/dist/collection/img-collection01.jpg" />
-			</li>
-			<li>
-				<img src="images/dist/collection/img-collection02.jpg" />
-			</li>
-			<li>
-				<img src="images/dist/collection/img-collection03.jpg" />
-			</li>
+			
 		</ul>
 	</section><!-- collection -->
 
