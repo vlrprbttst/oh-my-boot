@@ -9,24 +9,24 @@ include 'includes/head.php';
 	<ul class="topslider">
 		<li>
 			<img src="images/dist/slider-top/SLIDER01.jpg" class="full" />
-			<div class="overlay-text first"></div>
+			<a href="http://www.ohmyboot.it/wp/" target="_blank">"<div class="overlay-text first"></div></a>
 
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER02.jpg" class="full" />
-			<div class="overlay-text second"></div>
+			<a href="#" target="_blank"><div class="overlay-text second"></div></a>
 		</li>
 		<li>
 			<img src="images/dist/slider-top/slide03.jpg" class="full" />
-			<div class="overlay-text third"></div>
+			<a href="#" target="_blank"><div class="overlay-text third"></div></a>
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER04.jpg" class="full" />
-			<div class="overlay-text fourth"></div>
+			<a href="#" target="_blank"><div class="overlay-text fourth"></div></a>
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER05.jpg" class="full" />
-			<div class="overlay-text fifth"></div>
+			<a href="#" target="_blank"><div class="overlay-text fifth"></div></a>
 		</li>
 	</ul>
 
