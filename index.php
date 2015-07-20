@@ -24,6 +24,10 @@ include 'includes/head.php';
 			<img src="images/dist/slider-top/SLIDER04.jpg" class="full" />
 			<div class="overlay-text fourth"></div>
 		</li>
+		<li>
+			<img src="images/dist/slider-top/SLIDER05.jpg" class="full" />
+			<div class="overlay-text fifth"></div>
+		</li>
 	</ul>
 
 	<section id="about" class="about">
