@@ -34,8 +34,8 @@ include 'includes/head.php';
 				<b>"Ohmyboot"</b> is the English for "Oh Mio Stivale".
 				<br>
 				<br>
-				"Ohmyboot" is a tribute to the charisma and skills of thousands of Italians who shaped our country throughout the centuries.
-				"Ohmyboot" is an exclamation that comes to life as soon as it appears on fabric. "Ohmyboot" (OMB) is a clothing brand!
+				<b>"Ohmyboot"</b> is a tribute to the charisma and skills of thousands of Italians who shaped our country throughout the centuries.
+				<b>"Ohmyboot"</b> is an exclamation that comes to life as soon as it appears on fabric. <b>"Ohmyboot"</b> (OMB) is a clothing brand!
 
 			</p>
 			<a href="#">
@@ -62,7 +62,7 @@ include 'includes/head.php';
 						omb
 					</div>
 					<div class="center">
-						Alessio Gaudio
+						OMB collection
 					</div>
 					<div class="bottom">
 						<a href="#">shop now</a>
