@@ -874,10 +874,17 @@ footer {
     display: inline;
   }
   
+  input {
+    width: 400px;
+    @include respond-to(580) {
+      width:auto;
+    }
+  }
+  
   form {
-    @include respond-to(918) {
+    @include respond-to(1030) {
       display: block;
-      margin:5px 0 0 0;
+      margin:10px 0 ;
     }
   }
   
