@@ -9,24 +9,24 @@ include 'includes/head.php';
 	<ul class="topslider">
 		<li>
 			<img src="images/dist/slider-top/SLIDER01.jpg" class="full" />
-			<a href="http://www.ohmyboot.it/wp/" target="_blank">"<div class="overlay-text first"></div></a>
+			<a href="http://www.ohmyboot.it/shop/" target="_blank">"<div class="overlay-text first"></div></a>
 
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER02.jpg" class="full" />
-			<a href="#" target="_blank"><div class="overlay-text second"></div></a>
+			<a href="http://www.ohmyboot.it/shop/?page_id=2135" target="_blank"><div class="overlay-text second"></div></a>
 		</li>
 		<li>
 			<img src="images/dist/slider-top/slide03.jpg" class="full" />
-			<a href="#" target="_blank"><div class="overlay-text third"></div></a>
+			<a href="http://www.ohmyboot.it/shop/?page_id=2135" target="_blank"><div class="overlay-text third"></div></a>
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER04.jpg" class="full" />
-			<a href="#" target="_blank"><div class="overlay-text fourth"></div></a>
+			<a href="http://www.ohmyboot.it/shop/?product=omb" target="_blank"><div class="overlay-text fourth"></div></a>
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER05.jpg" class="full" />
-			<a href="#" target="_blank"><div class="overlay-text fifth"></div></a>
+			<a href="http://www.ohmyboot.it/shop/" target="_blank"><div class="overlay-text fifth"></div></a>
 		</li>
 	</ul>
 
@@ -42,7 +42,7 @@ include 'includes/head.php';
 				<b>"Ohmyboot"</b> is an exclamation that comes to life as soon as it appears on fabric. <b>"Ohmyboot"</b> (OMB) is a clothing brand!
 
 			</p>
-			<a href="#">
+			<a href="http://www.ohmyboot.it/shop/?page_id=1778">
 			<div class="discover">
 				discover now
 			</div> </a>
@@ -69,7 +69,7 @@ include 'includes/head.php';
 						OMB collection
 					</div>
 					<div class="bottom">
-						<a href="#">shop now</a>
+						<a href="http://www.ohmyboot.it/shop/">shop now</a>
 					</div>
 				</div>
 				<!-- description box -->
@@ -85,7 +85,7 @@ include 'includes/head.php';
 						tank top
 					</div>
 					<div class="bottom">
-						<a href="#">shop now</a>
+						<a href="http://www.ohmyboot.it/shop/?page_id=1755">shop now</a>
 					</div>
 				</div>
 				<!-- description box -->
@@ -101,7 +101,7 @@ include 'includes/head.php';
 						lookbook 2015
 					</div>
 					<div class="bottom">
-						<a href="#">watch now</a>
+						<a href="http://www.ohmyboot.it/shop/?page_id=2135">watch now</a>
 					</div>
 				</div>
 				<!-- description box -->
@@ -122,7 +122,7 @@ include 'includes/head.php';
 						<div class="buytitle">
 							hell
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						<a href="http://www.ohmyboot.it/shop/?product=hell"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</li>
@@ -136,7 +136,7 @@ include 'includes/head.php';
 						<div class="buytitle">
 							decameron
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						<a href="http://www.ohmyboot.it/shop/?product=decameron"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</li>
@@ -150,7 +150,7 @@ include 'includes/head.php';
 						<div class="buytitle">
 							6 chars
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						<a href="http://www.ohmyboot.it/shop/?product=6-characters"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</li>
@@ -164,7 +164,7 @@ include 'includes/head.php';
 						<div class="buytitle">
 							bike thieves
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						<a href="http://www.ohmyboot.it/shop/?product=bike-thieves"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</li>
@@ -178,7 +178,7 @@ include 'includes/head.php';
 						<div class="buytitle">
 							omb
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						<a href="http://www.ohmyboot.it/shop/?product=omb"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</li>
@@ -192,7 +192,7 @@ include 'includes/head.php';
 						<div class="buytitle">
 							lion king
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						<a href="http://www.ohmyboot.it/shop/?product=lionking"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</li>
@@ -206,7 +206,7 @@ include 'includes/head.php';
 						<div class="buytitle">
 							pinocchio
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						<a href="http://www.ohmyboot.it/shop/?product=pinocchio"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</li>
@@ -220,7 +220,7 @@ include 'includes/head.php';
 						<div class="buytitle">
 							nuvolari
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						<a href="http://www.ohmyboot.it/shop/?product=nivola"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</li>
@@ -234,7 +234,7 @@ include 'includes/head.php';
 						<div class="buytitle">
 							solo
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						<a href="http://www.ohmyboot.it/shop/?product=solo"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</li>
@@ -248,7 +248,7 @@ include 'includes/head.php';
 						<div class="buytitle">
 							hawks and sparrows
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
+						<a href="http://www.ohmyboot.it/shop/?product=hawkssparrows"><i class="fa fa-shopping-cart"></i></a>
 					</div>
 				</div>
 			</li>
