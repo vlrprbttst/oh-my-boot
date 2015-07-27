@@ -27,7 +27,7 @@
 						<a href="#collection">collection</a>
 					</li>
 					<li>
-						<a href="#">shop</a>
+						<a href="http://www.ohmyboot.it/shop/">shop</a>
 					</li>
 					<li>
 						<a href="#grams">grams</a>
