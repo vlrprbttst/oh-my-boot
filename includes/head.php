@@ -1,5 +1,4 @@
-<!doctype html>
-<!--[if IE 9]>
+<!doctype html> <!--[if IE 9]>
 <html lang="en" class="ie ie9">
 <![endif]-->
 <!--[if lt IE 9]>
@@ -13,21 +12,20 @@
 		<meta name="description" content="Ohmyboot is a tribute to the charisma and skills of thousands of Italians who shaped our country throughout the centuries.">
 
 		<!-- facebook -->
-		<meta property="og:title" content="Ohmyboot">
+		<meta property="og:title" content="Ohmyboot - Clothing">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="http://www.ohmyboot.it">
-		<meta property="og:image" content="http://www.ohmyboot.it/images/dist/logo-red-white.png">
-		<meta property="og:description" content="Ohmyboot Clothing">
+		<meta property="og:image" content="http://www.ohmyboot.it/images/dist/social-pic.jpg">
+		<meta property="og:description" content="Ohmyboot is a clothing brand. Ohmyboot is a tribute to the charisma and skills of thousands of Italians who shaped our country throughout the centuries.">
 		<meta property="og:site_name" content="www.ohmyboot.it">
 
 		<!-- twitter card -->
-		<meta name="twitter:card" content="summary"/>
-		<meta name="twitter:description" content="Ohmyboot Clothing"/>
-		<meta name="twitter:title" content="Ohmyboot"/>
-		<meta name="twitter:site" content="@OhmybootClth"/>
-		<meta name="twitter:domain" content="Ohmyboot - Clothing"/>
-		<meta name="twitter:image:src" content="http://www.ohmyboot.it/images/dist/logo-red-white.png"/>
-		<meta name="twitter:creator" content="@OhmybootClth"/>
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="http://www.ohmyboot.it">
+		<meta name="twitter:creator" content="@OhmybootClth">
+		<meta name="twitter:title" content="Ohmyboot - Clothing">
+		<meta name="twitter:description" content="Ohmyboot is a clothing brand. Ohmyboot is a tribute to the charisma and skills of thousands of Italians who shaped our country throughout the centuries.">
+		<meta name="twitter:image" content="http://www.ohmyboot.it/images/dist/social-pic.jpg">
 
 		<!-- viewport -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
