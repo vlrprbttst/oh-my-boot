@@ -66,10 +66,10 @@ include 'includes/head.php';
 						omb
 					</div>
 					<div class="center">
-						OMB Video Promo
+						OMB collection
 					</div>
 					<div class="bottom">
-						<a href="http://www.ohmyboot.it/shop/?page_id=1778">watch now</a>
+						<a href="http://www.ohmyboot.it/shop/">shop now</a>
 					</div>
 				</div>
 				<!-- description box -->
@@ -274,7 +274,7 @@ include 'includes/head.php';
 				<a href="https://twitter.com/OhmybootClth"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="https://www.facebook.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="https://instagram.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x fa-inverse"></i> </span></a>
-				<a href="https://www.youtube.com/channel/UC3OMlIZg1EBQFK5XRTRcPVA/videos"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i> </span></a>
+				<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i> </span></a>
 			</div><!-- left -->
 			<div class="right">
 				<!-- Form -->
