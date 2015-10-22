@@ -39,7 +39,7 @@ include 'includes/head.php';
 				<br>
 				<br>
 				<b>"Ohmyboot"</b> is a tribute to the charisma and skills of thousands of Italians who shaped our country throughout the centuries.
-				<b>"Ohmyboot"</b> is an exclamation that comes to life as soon as it appears on fabric. <b>"Ohmyboot"</b> (OMB) is a clothing brand!
+				<b>"Ohmyboot!"</b> is an exclamation that comes to life as soon as it appears on fabric. <b>"Ohmyboot"</b> (OMB) is a clothing brand!
 
 			</p>
 			<a href="http://www.ohmyboot.it/shop/?page_id=1778">
