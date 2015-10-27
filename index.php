@@ -17,7 +17,7 @@ include 'includes/head.php';
 			<a href="http://www.ohmyboot.it/shop/?page_id=1778" target="_blank"><div class="overlay-text second"></div></a>
 		</li>
 		<li>
-			<img src="images/dist/slider-top/slide02.jpg" class="full" />
+			<img src="images/dist/slider-top/SLIDER02.jpg" class="full" />
 			<a href="http://www.ohmyboot.it/shop/?page_id=2135" target="_blank"><div class="overlay-text third"></div></a>
 		</li>
 		<li>
