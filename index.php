@@ -8,20 +8,20 @@ include 'includes/head.php';
 
 	<ul class="topslider">
 		<li>
-			<img src="images/dist/slider-top/SLIDER07.jpg" class="full" />
+			<img src="images/dist/slider-top/slider-collection.jpg" class="full" />
 			<a href="http://www.ohmyboot.it/shop/?product=bike-thieves" target="_blank">"<div class="overlay-text first"></div></a>
 
 		</li>
 		<li>
-			<img src="images/dist/slider-top/SLIDER06.jpg" class="full" />
+			<img src="images/dist/slider-top/SLIDER07.jpg" class="full" />
 			<a href="http://www.ohmyboot.it/shop/?page_id=1778" target="_blank"><div class="overlay-text second"></div></a>
 		</li>
 		<li>
-			<img src="images/dist/slider-top/SLIDER02.jpg" class="full" />
+			<img src="images/dist/slider-top/SLIDER06.jpg" class="full" />
 			<a href="http://www.ohmyboot.it/shop/?page_id=2135" target="_blank"><div class="overlay-text third"></div></a>
 		</li>
 		<li>
-			<img src="images/dist/slider-top/SLIDER04.jpg" class="full" />
+			<img src="images/dist/slider-top/SLIDER02.jpg" class="full" />
 			<a href="http://www.ohmyboot.it/shop/?product=omb" target="_blank"><div class="overlay-text fourth"></div></a>
 		</li>
 		<li>
