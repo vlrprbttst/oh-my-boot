@@ -8,10 +8,10 @@
 				<div class="subheader-right">
 	
 					<div class="social">
-						<a href="https://twitter.com/OhmybootClth" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
 						<a href="https://www.facebook.com/ohmyboot" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
 						<a href="https://instagram.com/ohmyboot" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
 						<a href="https://www.youtube.com/channel/UC3OMlIZg1EBQFK5XRTRcPVA/videos" target="_blank"><i class="fa fa-youtube-play fa-lg"></i></a>
+                        <a href="https://it.pinterest.com/ohmyboot/" target="_blank"><i class="fa fa-pinterest fa-lg"></i></a>
 					</div>
 				</div>
 			</div>

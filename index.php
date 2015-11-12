@@ -271,10 +271,11 @@ include 'includes/head.php';
 				<span><i class="fa fa-phone"></i></span><a href="tel:00393928961335">+39 392 896 1335</a>
 				<h2>connect <span>with us</span></h2>
 
-				<a href="https://twitter.com/OhmybootClth"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span></a>
+				
 				<a href="https://www.facebook.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="https://instagram.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="https://www.youtube.com/channel/UC3OMlIZg1EBQFK5XRTRcPVA/videos"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i> </span></a>
+                <a href="https://it.pinterest.com/ohmyboot/"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i> </span></a>
 			</div><!-- left -->
 			<div class="right">
 				<!-- Form -->
