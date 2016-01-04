@@ -8,7 +8,7 @@ include 'includes/head.php';
 
 	<ul class="topslider">
 		<li>
-			<img src="images/dist/slider-top/christmas.jpg" class="full" />
+			<img src="images/dist/slider-top/slider-collection.jpg" class="full" />
 			<a href="http://www.ohmyboot.it/shop/?page_id=1778" target="_blank"><div class="overlay-text first"></div></a>
 		</li>
 		<li>
