@@ -8,14 +8,8 @@ include 'includes/head.php';
 
 	<ul class="topslider">
 		<li>
-<<<<<<< HEAD
 			<img src="images/dist/slider-top/SLIDER-sale.jpg" class="full" />
 			<a href="http://www.ohmyboot.it/shop/" target="_blank"><div class="overlay-text first"></div></a>
-=======
-			<img src="images/dist/slider-top/slider-collection.jpg" class="full" />
-			<a href="http://www.ohmyboot.it/shop/?page_id=1778" target="_blank"><div class="overlay-text first"></div></a>
-
->>>>>>> origin/master
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER07.jpg" class="full" />
