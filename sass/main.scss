@@ -12,9 +12,9 @@ body {
 
 
 html {
-  
+
   box-sizing: border-box;
-  
+
 }
 
 *,
@@ -34,7 +34,7 @@ body {
   @include reset;
   font-weight:300;
   font-size:1em;
-  
+
   @include respond-to(640) {
     font-size:80%;
   }
@@ -45,16 +45,16 @@ p {
   line-height:1.8em;
   font-weight: 300;
   margin:0 0 20px;
-} 
+}
 
 h1 {
   font-size:3em;
   line-height:auto;
   padding: 0;
   margin:0 0 20px;
-} 
+}
 
-img {  
+img {
   border:0;
   vertical-align:bottom;
   max-width:100%;
@@ -69,11 +69,11 @@ header {
   background: url("../images/dist/noise.png") $highlight;
   background-size:50px auto;
   transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
-  
+
   @include respond-to(900) {
     height: 60px;
   }
-  
+
   }
 
 
@@ -84,7 +84,7 @@ header {
     top: 0;
     left: 0;
     z-index:99999;
-    
+
     header {
       height: 60px;
       transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
@@ -100,21 +100,21 @@ header {
   font-weight: 200;
   text-align: center;
   height: 100%;
-  
-  
+
+
   &-left {
     float: left;
     background: url("../images/dist/logo-white.png") 20px center no-repeat transparent;
     background-size: auto 80%;
     height: 100%;
     width: 145px;
-    
+
     span {display: none; }
     @include respond-to(360) {
       background:none;
       background-size: auto 80%;
       width: 70px;
-      
+
       span {
         display: block;
         text-transform: capitalize;
@@ -124,25 +124,25 @@ header {
       }
     }
   }
-  
+
   &-right {
     float: right;
     @include vertical-align;
     text-align: right;
-    
+
     @include respond-to(360) {
       float: none;
       padding:5px 0 0 0;
     }
-    
+
     a,
     a:hover,
     a:visited,
     a:active {@include unstyled-link}
-    
+
     > div {display: inline;}
-    
-    
+
+
     i {
       padding:0 10px;
       &:first-child {padding:0 10px 0 20px}
@@ -158,41 +158,41 @@ nav {
   position: relative;
   padding: 20px 0;
   box-shadow:0 5px 5px rgba(0,0,0,0.2);
-  
+
   @include respond-to(599) {padding:10px 0;}
-  
+
 }
 
 .subnav {
-  
+
   margin: 0 auto;
   max-width:1200px;
   text-transform: uppercase;
   @include clearfix;
-  
+
   i {
     display: none;
-    
+
     @include respond-to(900) {
       display:block;
       padding:10px;
-      
+
     }
   }
-  
+
   ul,
   li {
     @include reset;
   }
-  
+
   ul {
     @include clearfix;
-    
+
     @include respond-to(900) {
       display:none;
     }
   }
-  
+
   li {
     float: left;
     list-style: none;
@@ -200,35 +200,35 @@ nav {
     text-align: center;
     border-left: 1px solid rgba(255,255,255,.1);
     border-right: 1px solid rgba(0,0,0,.3);
-  
+
   &:first-child {
     border-left:0;
   }
-  
+
   &:last-child {
     border-right:0
   }
-    
+
     @include respond-to(900) {
       width: 100%;
-      
+
       &:last-child {
         padding:0 0 20px;
       }
     }
-    
+
     a {
       @include unstyled-link;
       letter-spacing: 2px;
       font-weight: 200;
       display: block;
-      
+
       &.active,
       &:hover {
         color:$highlight;
       }
     }
-  } 
+  }
 }
 
 
@@ -239,7 +239,7 @@ footer {
   padding:10px 0;
   color:$text-on-dark-bg;
   text-align: center;
-  
+
 }
 
 .subfooter {
@@ -251,46 +251,46 @@ footer {
   font-size:.8em;
   text-align: center;
   padding:10px 0;
-  
+
   &-left {
     float: left;
     width: 50%;
-    
+
     @include respond-to(1050) {
       width: 100%;
     }
-    
+
     ul,
     li {
       @include reset;
     }
-    
+
   ul {
     @include clearfix;
-    
-    
+
+
   }
-  
+
   li {
     float: left;
     list-style: none;
     width: 20%;
     text-align: center;
     border-right:1px solid transparentize($text-on-dark-bg,.5);
-    
+
     @include respond-to(460) {
       width: 100%;
       padding:5px 0;
     }
-    
+
     &:last-child {border:0}
-    
+
     a {
       @include unstyled-link;
-      
+
       font-weight: 200;
       display: block;
-      
+
       &.active,
       &:hover {
         text-decoration: underline;
@@ -300,17 +300,17 @@ footer {
 }
 
 
-  
+
   &-right {
     float: right;
     width: 50%;
     text-transform: none;
-    
+
     @include respond-to(1050) {
       width: 100%;
       padding:20px 0 0 0;
     }
-    
+
     span {font-weight: 400;}
   }
 
@@ -320,7 +320,7 @@ footer {
 
 /*
  * slider
- * 
+ *
  */
 
 
@@ -329,13 +329,13 @@ footer {
 
 .topslider {
   @include reset;
-  
+
   li {
    @include reset;
   }
-  
+
   .overlay-text {
-  
+
     position:absolute;
     top: 0;
     left: 0;
@@ -346,26 +346,26 @@ footer {
     background-repeat:no-repeat;
     background-color:transparent;
     background-size:cover;
-  
+
   &.first {
-    background-image:url("../images/dist/slider-top/slider-collection02WM.png");
-  }  
-   
+    background-image:url("../images/dist/slider-top/slider-teestoreWM.png");
+  }
+
     &.second {
     background-image:url("../images/dist/slider-top/SLIDER08-WM.png");
-  }  
-  
+  }
+
     &.third {
     background-image:url("../images/dist/slider-top/SLIDER09-WM.png");
-  }  
-  
+  }
+
       &.fourth {
     background-image:url("../images/dist/slider-top/SLIDER02-WM.png");
-  } 
+  }
       &.fifth {
     background-image:url("../images/dist/slider-top/SLIDER06-WM.png");
-  } 
-    
+  }
+
   }
 } // top slider
 
@@ -374,7 +374,7 @@ footer {
     margin:0 auto;
     padding:50px 10%;
     max-width:1400px;
-    
+
     @include respond-to(1450) {
       padding:10%;
     }
@@ -382,11 +382,11 @@ footer {
 .about {
  padding:50px 0;
  text-align: center;
- 
+
      @include respond-to(1450) {
       padding:5% 0;
     }
-    
+
     h1 {
       text-align: center;
       font-weight: 300;
@@ -395,24 +395,24 @@ footer {
       padding: 10px 0 40px 0;
       margin:0 auto;
       line-height:1.2em;
-      
+
       span {
         font-weight: bold;
         color:lighten($text-on-light-bg,5%);
-        }    
-        
-        
-        
+        }
+
+
+
         @include respond-to(480) {
           font-size:2em;
-        }    
+        }
     }//h1
-    
+
     h2 {
       text-align: center;
        text-transform: uppercase;
        background-image: linear-gradient(
-      to right, 
+      to right,
       $dark-bg,
       $dark-bg 30%,
       transparent 30%,
@@ -425,16 +425,16 @@ footer {
   display: block;
   width: 50%;
   margin: 0 auto;
-  
+
     @include respond-to(1030) {
     width: 80%;
-    
+
   }
-  
+
   @include respond-to(480) {
     width: 100%;
     background-image: linear-gradient(
-      to right, 
+      to right,
       $dark-bg,
       $dark-bg 22%,
       transparent 22%,
@@ -442,26 +442,26 @@ footer {
       $dark-bg 78%
     );
   }
-  
+
     } //h2
-    
+
     .discover {
       color:$text-on-dark-bg;
-      border-bottom:5px solid darken($highlight,10%); 
+      border-bottom:5px solid darken($highlight,10%);
       padding: 20px 40px;
       background:$highlight;
-      margin:40px auto 0;      
+      margin:40px auto 0;
       text-transform: uppercase;
       font-weight: bold;
       display: inline-block;
-      
+
     }
       a,
       a:visited,
       a:hover {
         @include unstyled-link;
       }
-    
+
     p {
       text-align: center;
     }
@@ -469,15 +469,15 @@ footer {
 
 .grid {
   @include clearfix;
-  
+
   .cell {
     float: left;
     width: 33.33333333%;
     height: 0;
     padding: 35% 0 0 0;
     position: relative;
-    
-    
+
+
     @include respond-to(550) {
       width: 100%;
       padding: 120% 0 0 0;
@@ -492,9 +492,9 @@ footer {
   left: 0;
   opacity:0;
   transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
-  
+
   }
-    
+
     .description-box {
       @include absolute-center;
       z-index:1000;
@@ -507,7 +507,7 @@ footer {
       top: 53%;
       font-size:1.2em;
       transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
-      
+
       .top {border-bottom:2px solid $darker-bg;text-shadow:0 1px 0 rgba(255,255,255,.2);}
       .center {font-weight:bold;padding:10px;  line-height: 1.2em;text-shadow:0 1px 0 rgba(255,255,255,.2);}
       .bottom {
@@ -515,7 +515,7 @@ footer {
         color:$text-on-dark-bg;
         font-weight:300;
         padding:10px 0;
-        
+
         a,
         a:visited,
         a:hover,
@@ -524,17 +524,17 @@ footer {
           @include unstyled-link;
         }
       }
-      
+
     } //desc box
-    
-    &.left {      
-      background:url("../images/dist/grid/middle-04.jpg") center center no-repeat; 
-      background-size:cover;     
-    }    
+
+    &.left {
+      background:url("../images/dist/grid/middle-teestore.jpg") center center no-repeat;
+      background-size:cover;
+    }
     &.center {
       background:url("../images/dist/grid/middle-02.jpg") center center no-repeat;
       background-size:cover;
-      
+
     }
     &.right {
       background:url("../images/dist/grid/middle-03.jpg") center center no-repeat;
@@ -547,7 +547,7 @@ footer {
         top: 50%;
         transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
     }
-    
+
     .overlay {
       opacity: 1;
       transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
@@ -562,26 +562,26 @@ footer {
   background-repeat:no-repeat;
   background-size:auto 80%;
   background-repeat:repeat-x;
-  
+
   @include respond-to(800) {
     padding:25px 0;
   }
-  
+
   &.collection {
     background-image:url("../images/dist/collection.png");
   }
-  
+
   &.instagram {
     background-image:url("../images/dist/instagram.png");
   }
 }
 
 .shopslider {
- 
+
  li {
    position: relative;
- 
- 
+
+
  .buy {
    width: 100%;
    height: 100%;
@@ -593,32 +593,32 @@ footer {
    z-index:99998;
    color:$text-on-dark-bg;
    transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
-   
+
    .buy-desc-box {
      @include absolute-center;
      top:-100%;
      text-align: center;
    }
-   
- } 
- 
+
+ }
+
  &:hover {
    .buy {
      opacity:1;
      transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
-     
+
      .buy-desc-box {
        transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
        top:50%;
        width: 70%;
      }
-     
+
      .buyhead {
        font-size:1.2em;
        font-weight: 700;
        text-transform: uppercase;
          background-image:     linear-gradient(
-      to right, 
+      to right,
       #fff,
       #fff 20%,
       transparent 20%,
@@ -629,19 +629,19 @@ footer {
   background-repeat: repeat-x;
   background-position: center center;
      }
-     
+
      .buytitle {
        font-size:2em;
        line-height:1.2em;
-       font-weight: 300;      
+       font-weight: 300;
        letter-spacing:2px;
        text-transform: uppercase;
        border-bottom:1px solid $text-on-dark-bg;
        padding:20px 0 25px 0;
      }
-     
+
      $magic-number:50px;
-     
+
      a,
      a:visited,
      a:hover {
@@ -653,14 +653,14 @@ footer {
        background:$text-on-dark-bg;
        border-radius:50%;
          transition:transform 250ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
-         
+
        i {
-       
+
          color:$text-on-light-bg;
          line-height:$magic-number;
          margin-left:-3px;
        }
-       
+
        &:hover {
          transform:scale(1.1);
            transition:transform 100ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
@@ -676,7 +676,7 @@ footer {
   .insta-wrapper {
     width: 20%;
     float: left;
-    
+
     @include respond-to(550) {
       width: 50%;
     }
@@ -687,18 +687,18 @@ footer {
     @extend .centered;
     padding: 100px 10%;
     @include clearfix;
-    
+
   }
-  
+
 .contact {
-  
+
   h1 {
-       
+
        margin:0 0 60px;
        text-align: center;
        text-transform: uppercase;
        background-image:     linear-gradient(
-      to right, 
+      to right,
       $dark-bg,
       $dark-bg 30%,
       transparent 30%,
@@ -708,70 +708,70 @@ footer {
   background-size: 100% 1px;
   background-repeat: repeat-x;
   background-position: center center;
-  
+
     @include respond-to(480) {
           font-size:2em;
           margin:0 0 20px;
-        }  
+        }
       @include respond-to(412) {
       background-image:     linear-gradient(
-      to right, 
+      to right,
       $dark-bg,
       $dark-bg 20%,
       transparent 20%,
       transparent 80%,
       $dark-bg 80%
     );
-        }  
-        
+        }
+
           @include respond-to(976) {
                  background-image:     linear-gradient(
-      to right, 
+      to right,
       $dark-bg,
       $dark-bg 15%,
       transparent 15%,
       transparent 85%,
       $dark-bg 85%
     );
-        }    
-  
-  
-  
-  
+        }
+
+
+
+
   }//h1
-  
+
   .left {
     text-align:center;
     width: 30%;
     float: left;
     line-height:2em;
-    
+
     @include respond-to(972) {
       float: none;
       width: 100%;
       margin:0 0 30px;
     }
-    
+
     span {
-      color:$highlight;  
-      
+      color:$highlight;
+
       &.fa-stack {
         color:$highlight2;
       }
     }
-    
+
     a,
     a:visited {
       @include unstyled-link;
     }
-    
+
     a:hover {
       text-decoration: underline;
     }
-    
+
     h2 {
-     
-      
+
+
       text-transform: uppercase;
       font-weight:300;
       margin: 20px 0 10px;
@@ -780,45 +780,45 @@ footer {
         color:inherit;
       }
     }
-    
+
     i {padding:0 5px 0 0}
-    
+
   }//.left
-  
+
   .right {
-    
+
     width: 70%;
     float: left;
     padding:0 0 0 40px;
     @include clearfix;
-    
+
     @include respond-to(972) {
       float: none;
       width: 100%;
       padding: 0;
     }
-    
+
     input {
     display: block;
     float: left;
-    width: 47.5%;  
+    width: 47.5%;
     margin:0 0 5%;
-    
+
     &:nth-child(2) {
-      
+
       float: right;
     }
     }
-    
+
     form {
       @include clearfix;
     }
-    
+
     .text-area {
       float: left;
       width: 100%;
     }
-    
+
     input,
     textarea {
       border:1px solid $dark-bg;
@@ -831,11 +831,11 @@ footer {
       margin:0 0 5%;
       min-height:200px;
     }
-    
+
     .btn-send {
       float: right;
     }
-    
+
     button {
       background:$highlight;
       color:$text-on-dark-bg;
@@ -848,7 +848,7 @@ footer {
       border-right: 0;
       border-bottom:3px solid lighten($highlight,10%);
     }
-    
+
   }//right
 }//contact
 
@@ -860,35 +860,35 @@ footer {
   line-height:1.6em;
   text-transform: uppercase;
   padding:20px 0;
-  
+
   @include respond-to(380) {
     line-height:1em;
   }
-  
-  
+
+
   span {
     font-weight:bold;
   }
-  
+
   form,
   input {
     display: inline;
   }
-  
+
   input {
     width: 400px;
     @include respond-to(580) {
       width:auto;
     }
   }
-  
+
   form {
     @include respond-to(1030) {
       display: block;
       margin:10px 0 ;
     }
   }
-  
+
   input {
     border-radius:3px;
     background:lighten(#999,20%);
@@ -933,20 +933,20 @@ body.thanks {
 }
 .response {
   text-align: center;
-  
+
   img {
     display: block;
     width: 150px;
     margin: 0 auto;
   }
-  
+
   a {
     @include unstyled-link;
     text-decoration: underline;
   }
-  
+
   p {
     margin: 0;
   }
-  
+
 }

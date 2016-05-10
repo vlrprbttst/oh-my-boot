@@ -8,8 +8,8 @@ include 'includes/head.php';
 
 	<ul class="topslider">
 		<li>
-			<img src="images/dist/slider-top/slider-collection02.jpg" class="full" />
-			<a href="http://www.ohmyboot.it/shop/" target="_blank"><div class="overlay-text first"></div></a>
+			<img src="images/dist/slider-top/slider-teestore.jpg" class="full" />
+			<a href="http://www.ohmyboot.it/shop/?page_id=2287" target="_blank"><div class="overlay-text first"></div></a>
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER08.jpg" class="full" />
@@ -65,10 +65,10 @@ include 'includes/head.php';
 						omb
 					</div>
 					<div class="center">
-						OMB Video Promo
+						Teestore Tribute Tees
 					</div>
 					<div class="bottom">
-						<a href="http://www.ohmyboot.it/shop/?page_id=1778">watch now</a>
+						<a href="http://www.ohmyboot.it/shop/?page_id=2287">watch now</a>
 					</div>
 				</div>
 				<!-- description box -->
@@ -251,7 +251,7 @@ include 'includes/head.php';
 					</div>
 				</div>
 			</li>
-			
+
 		</ul>
 	</section><!-- collection -->
 
@@ -270,7 +270,7 @@ include 'includes/head.php';
 				<span><i class="fa fa-phone"></i></span><a href="tel:00393928961335">+39 392 896 1335</a>
 				<h2>connect <span>with us</span></h2>
 
-				
+
 				<a href="https://www.facebook.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="https://instagram.com/ohmyboot"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x fa-inverse"></i> </span></a>
 				<a href="https://www.youtube.com/channel/UC3OMlIZg1EBQFK5XRTRcPVA/videos"><span class="fa-stack fa-lg"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i> </span></a>
