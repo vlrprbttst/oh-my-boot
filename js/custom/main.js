@@ -31,7 +31,7 @@ $('.shopslider').bxSlider({
 var userFeed = new Instafeed({
 	get : 'user',
 	userId : 1429831284,
-	accessToken : '1429831284.467ede5.c1bb745ad06e412ba1243b72b2b6c400',
+	accessToken : '1429831284.1677ed0.5a3b60782f7d49719726d0e77fbba445',
 	limit : 10,
 	resolution : 'standard_resolution',
 	template : '<a href="{{link}}" target="_blank"><div class="insta-wrapper"><img class="full" src="{{image}}"></div></a>'
@@ -111,5 +111,3 @@ $(window).resize(offsetting);
 
   ga('create', 'UA-52919048-1', 'auto');
   ga('send', 'pageview');
-
-
