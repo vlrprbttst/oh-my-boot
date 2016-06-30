@@ -8,12 +8,12 @@ include 'includes/head.php';
 
 	<ul class="topslider">
 		<li>
-			<img src="images/dist/slider-top/SLIDER-teestore.jpg" class="full" />
-			<a href="http://www.ohmyboot.it/shop/?page_id=2287" target="_blank"><div class="overlay-text first"></div></a>
+			<img src="images/dist/slider-top/SLIDER-summer-sale.jpg" class="full" />
+			<a href="http://www.ohmyboot.it/shop/" target="_blank"><div class="overlay-text first"></div></a>
 		</li>
 		<li>
-			<img src="images/dist/slider-top/SLIDER08.jpg" class="full" />
-			<a href="http://www.ohmyboot.it/shop/?product=decameron" target="_blank"><div class="overlay-text second"></div></a>
+			<img src="images/dist/slider-top/SLIDER-teestore.jpg" class="full" />
+			<a href="http://www.ohmyboot.it/shop/?page_id=2287" target="_blank"><div class="overlay-text second"></div></a>
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER09.jpg" class="full" />
