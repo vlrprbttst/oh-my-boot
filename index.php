@@ -8,16 +8,16 @@ include 'includes/head.php';
 
 	<ul class="topslider">
 		<li>
+			<img src="images/dist/slider-top/slider-LM.jpg" class="full" />
+			<a href="http://www.ohmyboot.it/shop/?product=omb-limited-edition" target="_blank"><div class="overlay-text first"></div></a>
+		</li>
+		<li>
 			<img src="images/dist/slider-top/slider-collection02.jpg" class="full" />
-			<a href="http://www.ohmyboot.it/shop/" target="_blank"><div class="overlay-text first"></div></a>
+			<a href="http://www.ohmyboot.it/shop/" target="_blank"><div class="overlay-text second"></div></a>
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER-teestore.jpg" class="full" />
-			<a href="http://www.ohmyboot.it/shop/?page_id=2287" target="_blank"><div class="overlay-text second"></div></a>
-		</li>
-		<li>
-			<img src="images/dist/slider-top/SLIDER09.jpg" class="full" />
-			<a href="http://www.ohmyboot.it/shop/?product=6-characters" target="_blank"><div class="overlay-text third"></div></a>
+			<a href="http://www.ohmyboot.it/shop/?page_id=2287" target="_blank"><div class="overlay-text third"></div></a>
 		</li>
 		<li>
 			<img src="images/dist/slider-top/SLIDER02.jpg" class="full" />
@@ -81,10 +81,10 @@ include 'includes/head.php';
 						omb
 					</div>
 					<div class="center">
-						tank top
+						Limited edition
 					</div>
 					<div class="bottom">
-						<a href="http://www.ohmyboot.it/shop/?page_id=1755">shop now</a>
+						<a href="http://www.ohmyboot.it/shop/?product=omb-limited-edition">shop now</a>
 					</div>
 				</div>
 				<!-- description box -->
